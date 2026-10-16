@@ -8453,7 +8453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "YELLOW"
 			(at 340.995 134.62 0)
 			(effects
 				(font
@@ -8462,7 +8462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 345.44 132.08 0)
 			(hide yes)
 			(effects
@@ -8498,7 +8498,7 @@
 			)
 		)
 	
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2296"
 			(at 345.44 132.08 0)
 			(hide yes)
 			(effects
@@ -8507,7 +8507,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
+		(property "MPN" "KT-0805Y"
 			(at 345.44 132.08 0)
 			(hide yes)
 			(effects
@@ -8533,7 +8533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "YELLOW"
 			(at 340.995 139.7 0)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 345.44 137.16 0)
 			(hide yes)
 			(effects
@@ -8578,7 +8578,7 @@
 			)
 		)
 	
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2296"
 			(at 345.44 137.16 0)
 			(hide yes)
 			(effects
@@ -8587,7 +8587,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
+		(property "MPN" "KT-0805Y"
 			(at 345.44 137.16 0)
 			(hide yes)
 			(effects
@@ -8613,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "YELLOW"
 			(at 340.995 144.78 0)
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 345.44 142.24 0)
 			(hide yes)
 			(effects
@@ -8658,7 +8658,7 @@
 			)
 		)
 	
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2296"
 			(at 345.44 142.24 0)
 			(hide yes)
 			(effects
@@ -8667,7 +8667,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
+		(property "MPN" "KT-0805Y"
 			(at 345.44 142.24 0)
 			(hide yes)
 			(effects
@@ -8693,7 +8693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "YELLOW"
 			(at 340.995 149.86 0)
 			(effects
 				(font
@@ -8702,7 +8702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 345.44 147.32 0)
 			(hide yes)
 			(effects
@@ -8738,7 +8738,7 @@
 			)
 		)
 	
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2296"
 			(at 345.44 147.32 0)
 			(hide yes)
 			(effects
@@ -8747,7 +8747,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
+		(property "MPN" "KT-0805Y"
 			(at 345.44 147.32 0)
 			(hide yes)
 			(effects

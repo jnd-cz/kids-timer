@@ -3621,13 +3621,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 157.48)
-			(xy 228.6 157.48)
-		)
-		(uuid "e591eb6f-a3b3-4577-8596-cd443f4d0a98")
-	)
-	(wire
-		(pts
 			(xy 226.06 160.02)
 			(xy 228.6 160.02)
 		)
@@ -3702,6 +3695,27 @@
 			(xy 228.6 187.96)
 		)
 		(uuid "5f00a3f0-64c3-49a4-80a8-cbf889d7ca2b")
+	)
+	(wire
+		(pts
+			(xy 226.06 157.48)
+			(xy 227.33 157.48)
+		)
+		(uuid "2087ce9a-f31b-4305-b252-75f701b6c981")
+	)
+	(wire
+		(pts
+			(xy 234.95 157.48)
+			(xy 237.49 157.48)
+		)
+		(uuid "53b15741-092f-4fad-a870-56d230b244dc")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76)
+			(xy 152.4 109.22)
+		)
+		(uuid "23e31bfb-835d-4195-be89-cb141c92f24e")
 	)
 	(label "XIN"
 		(at 172.72 165.1 180)
@@ -3842,6 +3856,16 @@
 			(justify right bottom)
 		)
 		(uuid "87f8c83f-bb80-4238-a148-e3f99af5c56b")
+	)
+	(label "RUN"
+		(at 152.4 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75f7294e-8cb9-40d8-a841-789c5fb30bea")
 	)
 	(global_label "USB_DM"
 		(shape input)
@@ -4008,17 +4032,6 @@
 		)
 		(uuid "5bcdf2df-5817-4e4b-b061-aa561b9cb098")
 	)
-	(global_label "LED_CLK"
-		(shape input)
-		(at 228.6 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56b796b6-d839-4b52-ac7d-87370552c319")
-	)
 	(global_label "LED_SDI"
 		(shape input)
 		(at 228.6 160.02 0)
@@ -4139,6 +4152,17 @@
 			(justify left)
 		)
 		(uuid "8e25663c-51ff-4512-8179-51a5c975c097")
+	)
+	(global_label "LED_CLK"
+		(shape input)
+		(at 237.49 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26d630ec-19ec-48b8-8bb1-1325c0bf6bab")
 	)
 	(symbol
 		(lib_id "MCU_RaspberryPi:RP2354A")
@@ -7108,6 +7132,206 @@
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 152.4 116.84 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17ac4524-79e7-42ab-ba99-c24a58fe5d2f")
+		(property "Reference" "SW3"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET"
+			(at 153.924 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 152.4 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 152.4 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "TBD"
+			(at 152.4 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 157.48 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8a17dcf-d976-4b70-9a47-05f8abd6bdb0")
+		(property "Reference" "R22"
+			(at 231.14 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 231.14 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 231.14 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C25105"
+			(at 231.14 157.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "362bedee-c90b-426d-b108-9666b02d721f")
+		(property "Reference" "#PWR018"
+			(at 152.4 128.27 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
