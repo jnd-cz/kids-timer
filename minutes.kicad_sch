@@ -1,0 +1,10172 @@
+(kicad_sch
+	(version 20250610)
+	(generator "konnect")
+	(generator_version "10.0")
+	(uuid "24442573-4372-4b18-9387-7d29cc82e7ac")
+	(paper "A3")
+	(lib_symbols
+		(symbol "kids-timer:SM16206S"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 43.1800 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM16206S"
+				(at 0 -43.1800 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881715816747008"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM16206S_0_1"
+				(rectangle
+					(start -10.1600 -40.6400)
+					(end 10.1600 40.6400)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 43.18 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 33.02 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 27.94 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 22.86 0)
+					(length 2.54)
+					(name "LE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -27.94 0)
+					(length 2.54)
+					(name "R-EXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -33.02 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 38.1 180)
+					(length 2.54)
+					(name "OUT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 33.02 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 27.94 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "OUT5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "OUT6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "OUT7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "OUT8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "OUT9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "OUT10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "OUT11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "OUT12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -27.94 180)
+					(length 2.54)
+					(name "OUT13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -33.02 180)
+					(length 2.54)
+					(name "OUT14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -38.1 180)
+					(length 2.54)
+					(name "OUT15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016)
+						(xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762)
+						(xy -0.508 1.27)
+						(xy -0.254 1.27)
+						(xy -0.508 1.27)
+						(xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27)
+						(xy 0 1.778)
+						(xy 0.254 1.778)
+						(xy 0 1.778)
+						(xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016)
+						(xy -0.762 0)
+						(xy 0.762 1.016)
+						(xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0)
+						(xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 73.66 76.2)
+		(diameter 0)
+		(uuid "cba74781-8f81-4339-b4bc-00df0c5e522d")
+	)
+	(junction
+		(at 73.66 81.28)
+		(diameter 0)
+		(uuid "1083c798-2237-4c66-b6b2-3f79cfc17c72")
+	)
+	(junction
+		(at 73.66 86.36)
+		(diameter 0)
+		(uuid "7217621d-c75a-4aff-a847-ebb6fb02513e")
+	)
+	(junction
+		(at 73.66 91.44)
+		(diameter 0)
+		(uuid "d53baea2-7743-48f8-bd43-60376cd5bc87")
+	)
+	(junction
+		(at 73.66 96.52)
+		(diameter 0)
+		(uuid "d8f88949-d1ec-4c76-ae83-2dd815415edb")
+	)
+	(junction
+		(at 73.66 101.6)
+		(diameter 0)
+		(uuid "f95c0cdd-59b4-4370-9ec0-2417beedbf27")
+	)
+	(junction
+		(at 73.66 106.68)
+		(diameter 0)
+		(uuid "ef42de4c-2644-4d8c-a300-6c0ae6ab521b")
+	)
+	(junction
+		(at 73.66 111.76)
+		(diameter 0)
+		(uuid "15db9b3d-c121-4b60-871d-e2aa25754030")
+	)
+	(junction
+		(at 73.66 116.84)
+		(diameter 0)
+		(uuid "bc8e2c3a-7408-44b3-9bfe-23fc5f58596a")
+	)
+	(junction
+		(at 73.66 121.92)
+		(diameter 0)
+		(uuid "fddf84d3-58d8-49d5-90f8-d08ea2af3461")
+	)
+	(junction
+		(at 73.66 127)
+		(diameter 0)
+		(uuid "4141c23d-09aa-4c0d-8da9-7561da1b2da5")
+	)
+	(junction
+		(at 73.66 132.08)
+		(diameter 0)
+		(uuid "bdc09624-7026-4f6f-bb93-69337b7c7129")
+	)
+	(junction
+		(at 73.66 137.16)
+		(diameter 0)
+		(uuid "80b5e0eb-7be7-4236-aa43-b96e7e413e35")
+	)
+	(junction
+		(at 73.66 142.24)
+		(diameter 0)
+		(uuid "4a6683e6-c692-4312-928d-fed723043058")
+	)
+	(junction
+		(at 165.1 76.2)
+		(diameter 0)
+		(uuid "a9b80b1b-62c6-49b8-a93e-c60ecf5b1e6c")
+	)
+	(junction
+		(at 165.1 81.28)
+		(diameter 0)
+		(uuid "363c6065-f75c-4afd-a563-67442fea55e8")
+	)
+	(junction
+		(at 165.1 86.36)
+		(diameter 0)
+		(uuid "8f34924f-1cd7-4a9e-8c2a-49788432eca7")
+	)
+	(junction
+		(at 165.1 91.44)
+		(diameter 0)
+		(uuid "5ef47886-d214-42cc-8ec9-265d7a0b09ac")
+	)
+	(junction
+		(at 165.1 96.52)
+		(diameter 0)
+		(uuid "5adcfd99-332d-4cb3-9a4a-e9b705695bfb")
+	)
+	(junction
+		(at 165.1 101.6)
+		(diameter 0)
+		(uuid "9e6ace09-0e1f-4edc-80b0-730ae187d009")
+	)
+	(junction
+		(at 165.1 106.68)
+		(diameter 0)
+		(uuid "2ae2644a-3f32-4ace-985b-e1c7125e511d")
+	)
+	(junction
+		(at 165.1 111.76)
+		(diameter 0)
+		(uuid "19b22b4b-9cae-44b7-87e4-fe8f33d389d9")
+	)
+	(junction
+		(at 165.1 116.84)
+		(diameter 0)
+		(uuid "4138fb15-7af5-40b0-b769-6b15e1c1fe46")
+	)
+	(junction
+		(at 165.1 121.92)
+		(diameter 0)
+		(uuid "4df7cd6c-54e4-4f56-bd22-fb66fb84cc07")
+	)
+	(junction
+		(at 165.1 127)
+		(diameter 0)
+		(uuid "86bbf1b6-ef09-4ec0-8d78-52469f2f7368")
+	)
+	(junction
+		(at 165.1 132.08)
+		(diameter 0)
+		(uuid "1c5e4c99-708d-46ca-a13c-7ac6e4e34bc6")
+	)
+	(junction
+		(at 165.1 137.16)
+		(diameter 0)
+		(uuid "c072a7eb-83a3-4db2-ac06-fdadf474751b")
+	)
+	(junction
+		(at 165.1 142.24)
+		(diameter 0)
+		(uuid "c7426478-50f0-402d-8cb1-a0df3c0e53aa")
+	)
+	(junction
+		(at 256.54 76.2)
+		(diameter 0)
+		(uuid "709a7e84-2da7-4e0c-8eea-2d5af5fd2588")
+	)
+	(junction
+		(at 256.54 81.28)
+		(diameter 0)
+		(uuid "75c7fa54-8c10-4706-bbe3-4a1ded69bcaf")
+	)
+	(junction
+		(at 256.54 86.36)
+		(diameter 0)
+		(uuid "e77932bb-6235-41df-af29-976675ae176f")
+	)
+	(junction
+		(at 256.54 91.44)
+		(diameter 0)
+		(uuid "d2cb3f2e-fb0c-4362-8f0b-5f438c46da25")
+	)
+	(junction
+		(at 256.54 96.52)
+		(diameter 0)
+		(uuid "54afe1a1-21da-4223-8ce9-e740b2e48313")
+	)
+	(junction
+		(at 256.54 101.6)
+		(diameter 0)
+		(uuid "1f3687f7-519e-45fe-bc6c-d6af3c35d2e9")
+	)
+	(junction
+		(at 256.54 106.68)
+		(diameter 0)
+		(uuid "53e0fc3c-20a7-40b1-97f1-ae3a63337d3e")
+	)
+	(junction
+		(at 256.54 111.76)
+		(diameter 0)
+		(uuid "46db61da-2e64-490c-8cd9-e3025c3d85f5")
+	)
+	(junction
+		(at 256.54 116.84)
+		(diameter 0)
+		(uuid "f4dd9196-b9a4-444e-8390-39769b23cba3")
+	)
+	(junction
+		(at 256.54 121.92)
+		(diameter 0)
+		(uuid "c432d59b-2312-4e8d-a0b2-12cd21f1cde4")
+	)
+	(junction
+		(at 256.54 127)
+		(diameter 0)
+		(uuid "3a91bf26-e083-4c09-8bba-d676223b326f")
+	)
+	(junction
+		(at 256.54 132.08)
+		(diameter 0)
+		(uuid "29628dc2-56b6-41af-8677-9f2e6163dbcc")
+	)
+	(junction
+		(at 256.54 137.16)
+		(diameter 0)
+		(uuid "384cf1e6-1903-4146-b006-0928950ea0b3")
+	)
+	(junction
+		(at 256.54 142.24)
+		(diameter 0)
+		(uuid "da867c41-8979-4faa-8e33-b24998601a13")
+	)
+	(junction
+		(at 347.98 76.2)
+		(diameter 0)
+		(uuid "c2b2fe4e-32c2-43eb-9a0c-de534e785de1")
+	)
+	(junction
+		(at 347.98 81.28)
+		(diameter 0)
+		(uuid "42087b3f-5280-472b-9c4e-4189f5b9184f")
+	)
+	(junction
+		(at 347.98 86.36)
+		(diameter 0)
+		(uuid "9f2a3bd0-a050-4631-b416-5653d178df62")
+	)
+	(junction
+		(at 347.98 91.44)
+		(diameter 0)
+		(uuid "3ef68780-a042-4c23-882d-637930fbe137")
+	)
+	(junction
+		(at 347.98 96.52)
+		(diameter 0)
+		(uuid "4671f901-4c1a-4dda-8050-bf369127227c")
+	)
+	(junction
+		(at 347.98 101.6)
+		(diameter 0)
+		(uuid "4722c827-28b7-4874-b8ac-57d728d5e3ce")
+	)
+	(junction
+		(at 347.98 106.68)
+		(diameter 0)
+		(uuid "b8201156-0696-4215-9fc9-ef0f46208cac")
+	)
+	(junction
+		(at 347.98 111.76)
+		(diameter 0)
+		(uuid "79719c0d-8470-4a51-b6aa-2e2209aca249")
+	)
+	(junction
+		(at 347.98 116.84)
+		(diameter 0)
+		(uuid "44194ef7-319d-4dff-b721-8447198d9144")
+	)
+	(junction
+		(at 347.98 121.92)
+		(diameter 0)
+		(uuid "165a521b-80be-4ea3-86dc-acd01f13fbd7")
+	)
+	(junction
+		(at 347.98 127)
+		(diameter 0)
+		(uuid "d1e574bb-6a1e-4392-94e3-c756282cd083")
+	)
+	(junction
+		(at 347.98 132.08)
+		(diameter 0)
+		(uuid "bc3c8721-9031-46e5-ad18-ff7ef3664867")
+	)
+	(junction
+		(at 347.98 137.16)
+		(diameter 0)
+		(uuid "36150db9-3362-45ba-ac44-4308863676a7")
+	)
+	(junction
+		(at 347.98 142.24)
+		(diameter 0)
+		(uuid "49492a5f-cf8f-4178-aa1a-cf748ab245bc")
+	)
+	(junction
+		(at 73.66 76.2)
+		(diameter 0)
+		(uuid "aaf9a0b8-f5ec-4abf-960e-2b5705e2e688")
+	)
+	(junction
+		(at 73.66 81.28)
+		(diameter 0)
+		(uuid "cf60cd2d-0c1c-4b93-a00c-afd595092e1f")
+	)
+	(junction
+		(at 73.66 86.36)
+		(diameter 0)
+		(uuid "92498aea-206d-49cc-b711-0d618fd76800")
+	)
+	(junction
+		(at 73.66 91.44)
+		(diameter 0)
+		(uuid "608037a7-9595-4606-a9e4-247beeafa634")
+	)
+	(junction
+		(at 73.66 96.52)
+		(diameter 0)
+		(uuid "194c43f9-ad16-451f-8e32-4f04a771c103")
+	)
+	(junction
+		(at 73.66 101.6)
+		(diameter 0)
+		(uuid "ce2fc873-54b8-474b-ab11-269a5e6eb849")
+	)
+	(junction
+		(at 73.66 106.68)
+		(diameter 0)
+		(uuid "934a47c9-33e8-4b6b-adf7-ba89d3699655")
+	)
+	(junction
+		(at 73.66 111.76)
+		(diameter 0)
+		(uuid "0767c7e9-d87a-4a7c-83fb-50f8e4acd000")
+	)
+	(junction
+		(at 73.66 116.84)
+		(diameter 0)
+		(uuid "989d8f31-3e77-4fca-bf54-e668e8e087a3")
+	)
+	(junction
+		(at 73.66 121.92)
+		(diameter 0)
+		(uuid "162f15ab-3479-4499-83d2-230d972b2cf2")
+	)
+	(junction
+		(at 73.66 127)
+		(diameter 0)
+		(uuid "fa7d9900-b035-49c2-9158-84cad945cac6")
+	)
+	(junction
+		(at 73.66 132.08)
+		(diameter 0)
+		(uuid "499f8477-515b-4866-9808-03bd39d585ba")
+	)
+	(junction
+		(at 73.66 137.16)
+		(diameter 0)
+		(uuid "e19bd029-0fa9-429a-8b41-bff285b053df")
+	)
+	(junction
+		(at 73.66 142.24)
+		(diameter 0)
+		(uuid "0c2f6e29-507a-488f-88bd-94d71704b757")
+	)
+	(junction
+		(at 165.1 76.2)
+		(diameter 0)
+		(uuid "3c5f54d8-447f-4790-b6b5-2999d01edfd2")
+	)
+	(junction
+		(at 165.1 81.28)
+		(diameter 0)
+		(uuid "67be97a1-bf33-482f-bffd-19b3f149c24d")
+	)
+	(junction
+		(at 165.1 86.36)
+		(diameter 0)
+		(uuid "101f8dbf-f023-4fdd-88ff-906d8f1577be")
+	)
+	(junction
+		(at 165.1 91.44)
+		(diameter 0)
+		(uuid "35161f07-63ae-4f10-a250-b4463e99524a")
+	)
+	(junction
+		(at 165.1 96.52)
+		(diameter 0)
+		(uuid "c9164445-3dee-4bb0-af93-9b6d775b3831")
+	)
+	(junction
+		(at 165.1 101.6)
+		(diameter 0)
+		(uuid "9cc131a8-4e07-40ac-8d78-30f8a12cf3dc")
+	)
+	(junction
+		(at 165.1 106.68)
+		(diameter 0)
+		(uuid "f1c3ac23-842b-40f0-ae06-5dd904bf088a")
+	)
+	(junction
+		(at 165.1 111.76)
+		(diameter 0)
+		(uuid "43481036-6808-41f1-b56b-fa136789b50c")
+	)
+	(junction
+		(at 165.1 116.84)
+		(diameter 0)
+		(uuid "de2c166e-2728-4658-9de7-5a029f44d497")
+	)
+	(junction
+		(at 165.1 121.92)
+		(diameter 0)
+		(uuid "5bfcf5de-1927-47ee-b578-82084e187d0f")
+	)
+	(junction
+		(at 165.1 127)
+		(diameter 0)
+		(uuid "99ee8a52-823a-4d50-afbc-d9608a68a77b")
+	)
+	(junction
+		(at 165.1 132.08)
+		(diameter 0)
+		(uuid "83fbd4fc-5716-4b03-9196-4cfdce7734b0")
+	)
+	(junction
+		(at 165.1 137.16)
+		(diameter 0)
+		(uuid "3297a2f1-e318-46c5-8e00-7821d61fa1d9")
+	)
+	(junction
+		(at 165.1 142.24)
+		(diameter 0)
+		(uuid "6d69b42b-03ec-45ac-97c3-5f92a3038631")
+	)
+	(junction
+		(at 256.54 76.2)
+		(diameter 0)
+		(uuid "f9f1b479-9a89-453c-ae1d-3c2b02100f6b")
+	)
+	(junction
+		(at 256.54 81.28)
+		(diameter 0)
+		(uuid "0eeea8d6-989c-4030-bad9-de5d67104525")
+	)
+	(junction
+		(at 256.54 86.36)
+		(diameter 0)
+		(uuid "c7dcbcdc-a3e0-4f3e-bcf6-e9238463756d")
+	)
+	(junction
+		(at 256.54 91.44)
+		(diameter 0)
+		(uuid "eccc3f07-a7b1-4137-ae94-976af63cf7b7")
+	)
+	(junction
+		(at 256.54 96.52)
+		(diameter 0)
+		(uuid "a0ef5d87-0fa4-4fac-8e1f-004bea76fec6")
+	)
+	(junction
+		(at 256.54 101.6)
+		(diameter 0)
+		(uuid "49a92279-ef66-42bd-af03-601e8662340f")
+	)
+	(junction
+		(at 256.54 106.68)
+		(diameter 0)
+		(uuid "872610ba-0b11-4642-90a3-57c0e859c975")
+	)
+	(junction
+		(at 256.54 111.76)
+		(diameter 0)
+		(uuid "92c1f74e-e5c8-4a2c-94c4-81c8a0632627")
+	)
+	(junction
+		(at 256.54 116.84)
+		(diameter 0)
+		(uuid "665c90f5-2080-4a7a-be3c-c716211d747d")
+	)
+	(junction
+		(at 256.54 121.92)
+		(diameter 0)
+		(uuid "1d125ae0-19b7-4e46-a850-79d309b0d607")
+	)
+	(junction
+		(at 256.54 127)
+		(diameter 0)
+		(uuid "8f8a433c-2910-40f4-8b5f-10c84fc5c9c6")
+	)
+	(junction
+		(at 256.54 132.08)
+		(diameter 0)
+		(uuid "6cc49530-77b7-44a0-95cb-fe065a8e767e")
+	)
+	(junction
+		(at 256.54 137.16)
+		(diameter 0)
+		(uuid "c3ecc191-1c46-4eb5-8fb4-43ff55cf1278")
+	)
+	(junction
+		(at 256.54 142.24)
+		(diameter 0)
+		(uuid "2c4e4ef9-1c45-4f3b-b2e5-c4a5bf32a763")
+	)
+	(junction
+		(at 347.98 76.2)
+		(diameter 0)
+		(uuid "d972e6fa-541b-4c97-b838-35c1615b69ee")
+	)
+	(junction
+		(at 347.98 81.28)
+		(diameter 0)
+		(uuid "37878dd3-6690-41a8-8ff9-1b7f972e43b6")
+	)
+	(junction
+		(at 347.98 86.36)
+		(diameter 0)
+		(uuid "95e8c49c-cb2d-40be-bff1-24469fa9fa9c")
+	)
+	(junction
+		(at 347.98 91.44)
+		(diameter 0)
+		(uuid "cc52bc7d-d034-40b4-b55b-9a1473919d35")
+	)
+	(junction
+		(at 347.98 96.52)
+		(diameter 0)
+		(uuid "667dfd34-8c4b-493f-8317-fb469322d0c4")
+	)
+	(junction
+		(at 347.98 101.6)
+		(diameter 0)
+		(uuid "c97962a2-a536-498c-812e-2fc33835c6ac")
+	)
+	(junction
+		(at 347.98 106.68)
+		(diameter 0)
+		(uuid "d37c8e59-39a9-4735-8dd7-a9a9c633d332")
+	)
+	(junction
+		(at 347.98 111.76)
+		(diameter 0)
+		(uuid "afefefb6-3794-4c91-93f0-4e348110e778")
+	)
+	(junction
+		(at 347.98 116.84)
+		(diameter 0)
+		(uuid "42a6bca7-bd47-4e70-aae1-e0052b998820")
+	)
+	(junction
+		(at 347.98 121.92)
+		(diameter 0)
+		(uuid "f86bd7c0-c6bf-46cb-b28c-bf654b0df4c3")
+	)
+	(junction
+		(at 347.98 127)
+		(diameter 0)
+		(uuid "8e9fb1a7-8991-4182-bc34-71a2b3a33e6e")
+	)
+	(junction
+		(at 347.98 132.08)
+		(diameter 0)
+		(uuid "67e9284c-c388-495c-9863-00beb1b5d18c")
+	)
+	(junction
+		(at 347.98 137.16)
+		(diameter 0)
+		(uuid "cc1c123e-a164-451e-9e37-bd68183db747")
+	)
+	(junction
+		(at 347.98 142.24)
+		(diameter 0)
+		(uuid "c976909e-a76c-4309-ab0b-5f3094057744")
+	)
+	(wire
+		(pts
+			(xy 38.1 137.16)
+			(xy 34.29 137.16)
+		)
+		(uuid "75aa5a89-3086-4c3c-b2a8-be2269ebf6e5")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04)
+			(xy 50.8 58.42)
+		)
+		(uuid "e7b8930b-81dc-45b1-a4f0-3348268f94c1")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42)
+			(xy 50.8 58.42)
+		)
+		(uuid "ab4726a0-9efd-4e69-8ec4-f4173922d046")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12)
+			(xy 68.58 71.12)
+		)
+		(uuid "b2c3ce16-f270-4d5e-bd28-a5e3d0dd3d91")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2)
+			(xy 68.58 76.2)
+		)
+		(uuid "c3566f94-06f5-4f8a-b26b-6155e3fe3904")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28)
+			(xy 68.58 81.28)
+		)
+		(uuid "4d78fb23-7e8b-4069-866f-1e8812e6d99e")
+	)
+	(wire
+		(pts
+			(xy 63.5 86.36)
+			(xy 68.58 86.36)
+		)
+		(uuid "b209dcb9-2d63-45b4-832d-1a54dc3fb3a5")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44)
+			(xy 68.58 91.44)
+		)
+		(uuid "1e7721ba-98e8-4563-a7a2-9b103d44d544")
+	)
+	(wire
+		(pts
+			(xy 63.5 96.52)
+			(xy 68.58 96.52)
+		)
+		(uuid "0e0f8747-3f59-466e-92a5-e16a0249dfa7")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6)
+			(xy 68.58 101.6)
+		)
+		(uuid "d0c3ed13-a016-4483-a20b-47b39e98b714")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68)
+			(xy 68.58 106.68)
+		)
+		(uuid "4dd7769f-6f79-4a41-858d-0df7ef872234")
+	)
+	(wire
+		(pts
+			(xy 63.5 111.76)
+			(xy 68.58 111.76)
+		)
+		(uuid "a5d59485-c056-4dd6-b6cb-eb403e905c37")
+	)
+	(wire
+		(pts
+			(xy 63.5 116.84)
+			(xy 68.58 116.84)
+		)
+		(uuid "ece60ea1-05ae-4047-b525-0d8fe166cdb4")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92)
+			(xy 68.58 121.92)
+		)
+		(uuid "6a97eec1-3be6-4b3b-8d39-8cd20bbc2c03")
+	)
+	(wire
+		(pts
+			(xy 63.5 127)
+			(xy 68.58 127)
+		)
+		(uuid "40dac6ab-7386-4195-871e-16b5a557716a")
+	)
+	(wire
+		(pts
+			(xy 63.5 132.08)
+			(xy 68.58 132.08)
+		)
+		(uuid "59602e56-f898-42f3-a35a-6554d19a3fc8")
+	)
+	(wire
+		(pts
+			(xy 63.5 137.16)
+			(xy 68.58 137.16)
+		)
+		(uuid "118a0071-a04f-4a58-b940-455227aedce4")
+	)
+	(wire
+		(pts
+			(xy 63.5 142.24)
+			(xy 68.58 142.24)
+		)
+		(uuid "f00b8aaa-8267-4f2e-b05c-840a6d21aced")
+	)
+	(wire
+		(pts
+			(xy 63.5 147.32)
+			(xy 68.58 147.32)
+		)
+		(uuid "f0730004-996c-4400-a1c8-ac4753b5d306")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12)
+			(xy 73.66 147.32)
+		)
+		(uuid "14515041-7959-412b-9e78-4f3187b7e47f")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16)
+			(xy 125.73 137.16)
+		)
+		(uuid "1bc7e353-2f6e-4051-8429-114fe3a28eaa")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04)
+			(xy 142.24 58.42)
+		)
+		(uuid "e0e3ec7f-ba21-44d0-ac45-13c992028fb7")
+	)
+	(wire
+		(pts
+			(xy 134.62 58.42)
+			(xy 142.24 58.42)
+		)
+		(uuid "163c80c8-56a5-41a6-807e-1da53eeaa684")
+	)
+	(wire
+		(pts
+			(xy 154.94 71.12)
+			(xy 160.02 71.12)
+		)
+		(uuid "9f119673-8d1c-4f68-b121-60e806760761")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2)
+			(xy 160.02 76.2)
+		)
+		(uuid "b3d285e3-f916-4f11-a83e-cb6f4b45b576")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28)
+			(xy 160.02 81.28)
+		)
+		(uuid "9cfc4c4f-4c05-4b2b-94d0-f71253821235")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36)
+			(xy 160.02 86.36)
+		)
+		(uuid "b10e3840-b865-4fce-a80e-e49626fad8d5")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44)
+			(xy 160.02 91.44)
+		)
+		(uuid "c137cea5-8efe-489c-b580-b429a88634fe")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52)
+			(xy 160.02 96.52)
+		)
+		(uuid "df326070-a046-46a7-8787-aea981c8b25e")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6)
+			(xy 160.02 101.6)
+		)
+		(uuid "3ec3b614-8e12-4f64-9f90-d08f1f8ccfe6")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68)
+			(xy 160.02 106.68)
+		)
+		(uuid "4688319e-8167-456f-bdb0-619ce818a8f4")
+	)
+	(wire
+		(pts
+			(xy 154.94 111.76)
+			(xy 160.02 111.76)
+		)
+		(uuid "025134b6-1c2b-4338-a1b3-e4ec37b3ad3a")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84)
+			(xy 160.02 116.84)
+		)
+		(uuid "af136672-3c85-4e06-ae13-576f5291c937")
+	)
+	(wire
+		(pts
+			(xy 154.94 121.92)
+			(xy 160.02 121.92)
+		)
+		(uuid "869de58d-e506-44de-8477-217cf70daf9c")
+	)
+	(wire
+		(pts
+			(xy 154.94 127)
+			(xy 160.02 127)
+		)
+		(uuid "f5b1c4e3-9328-4f99-ba22-fc15863e6efa")
+	)
+	(wire
+		(pts
+			(xy 154.94 132.08)
+			(xy 160.02 132.08)
+		)
+		(uuid "eb95604e-9c43-4a7d-8f14-b1a5d7af0870")
+	)
+	(wire
+		(pts
+			(xy 154.94 137.16)
+			(xy 160.02 137.16)
+		)
+		(uuid "8165e039-5d90-4e80-a7dd-f0b92838acaa")
+	)
+	(wire
+		(pts
+			(xy 154.94 142.24)
+			(xy 160.02 142.24)
+		)
+		(uuid "f7ef96ee-801f-49fc-8fb7-4e0d51050598")
+	)
+	(wire
+		(pts
+			(xy 154.94 147.32)
+			(xy 160.02 147.32)
+		)
+		(uuid "e298913b-ad96-4bfc-bec4-29430159d591")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12)
+			(xy 165.1 147.32)
+		)
+		(uuid "34dcd278-6819-4ffb-a7c4-2708f79da45c")
+	)
+	(wire
+		(pts
+			(xy 220.98 137.16)
+			(xy 217.17 137.16)
+		)
+		(uuid "eb669d67-bea1-426b-a4da-9645a5081a1f")
+	)
+	(wire
+		(pts
+			(xy 233.68 66.04)
+			(xy 233.68 58.42)
+		)
+		(uuid "e9a9c7b1-5f12-4623-92b0-e3eae07d45f5")
+	)
+	(wire
+		(pts
+			(xy 226.06 58.42)
+			(xy 233.68 58.42)
+		)
+		(uuid "6b9a6966-8afa-40a7-85fa-5f65172cf304")
+	)
+	(wire
+		(pts
+			(xy 246.38 71.12)
+			(xy 251.46 71.12)
+		)
+		(uuid "1b21a1f9-8b7f-42bf-8487-9ee026fcf355")
+	)
+	(wire
+		(pts
+			(xy 246.38 76.2)
+			(xy 251.46 76.2)
+		)
+		(uuid "5e26fc2e-74d0-4f14-ae72-7ac735222b03")
+	)
+	(wire
+		(pts
+			(xy 246.38 81.28)
+			(xy 251.46 81.28)
+		)
+		(uuid "63b76f13-d118-48a4-864b-797ed723ca09")
+	)
+	(wire
+		(pts
+			(xy 246.38 86.36)
+			(xy 251.46 86.36)
+		)
+		(uuid "1b6a9824-be84-4d00-be86-9584830eea8f")
+	)
+	(wire
+		(pts
+			(xy 246.38 91.44)
+			(xy 251.46 91.44)
+		)
+		(uuid "92fb82b5-ab3a-4dfb-b453-6b89f2a330ba")
+	)
+	(wire
+		(pts
+			(xy 246.38 96.52)
+			(xy 251.46 96.52)
+		)
+		(uuid "07b27ce5-9f3d-4e9f-a4ee-e9a30f4bcd62")
+	)
+	(wire
+		(pts
+			(xy 246.38 101.6)
+			(xy 251.46 101.6)
+		)
+		(uuid "48d2cb54-b74a-42f8-acc8-d9dae6c51bc0")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68)
+			(xy 251.46 106.68)
+		)
+		(uuid "9d6dfc83-4ff1-4902-aba9-f6abff42753f")
+	)
+	(wire
+		(pts
+			(xy 246.38 111.76)
+			(xy 251.46 111.76)
+		)
+		(uuid "b791f9a1-1718-40cf-81be-ece8effd207c")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84)
+			(xy 251.46 116.84)
+		)
+		(uuid "62c22801-7c7b-4437-9e21-6d4e6dc511fd")
+	)
+	(wire
+		(pts
+			(xy 246.38 121.92)
+			(xy 251.46 121.92)
+		)
+		(uuid "6c6aa737-2610-4398-9825-e74506a7674d")
+	)
+	(wire
+		(pts
+			(xy 246.38 127)
+			(xy 251.46 127)
+		)
+		(uuid "899bfd12-6f76-44de-838a-45ff29ad14d5")
+	)
+	(wire
+		(pts
+			(xy 246.38 132.08)
+			(xy 251.46 132.08)
+		)
+		(uuid "f06b4fdf-f09a-4daa-86c8-00a54fae6939")
+	)
+	(wire
+		(pts
+			(xy 246.38 137.16)
+			(xy 251.46 137.16)
+		)
+		(uuid "89dcfd1b-9fbe-4789-88ed-ddc8117426fa")
+	)
+	(wire
+		(pts
+			(xy 246.38 142.24)
+			(xy 251.46 142.24)
+		)
+		(uuid "294012e4-ed0b-40f4-98c5-b2a53bf87fb9")
+	)
+	(wire
+		(pts
+			(xy 246.38 147.32)
+			(xy 251.46 147.32)
+		)
+		(uuid "c3ed869c-e1d6-4f30-aec0-cf8ee4b0fb2e")
+	)
+	(wire
+		(pts
+			(xy 256.54 71.12)
+			(xy 256.54 147.32)
+		)
+		(uuid "6fd42eb1-4fde-4884-906f-cee0e0ed2d60")
+	)
+	(wire
+		(pts
+			(xy 312.42 137.16)
+			(xy 308.61 137.16)
+		)
+		(uuid "46da0434-69ff-4123-b1cf-83679daf58e3")
+	)
+	(wire
+		(pts
+			(xy 325.12 66.04)
+			(xy 325.12 58.42)
+		)
+		(uuid "3c94cb06-b7a1-4542-a036-15cf99ab4c31")
+	)
+	(wire
+		(pts
+			(xy 317.5 58.42)
+			(xy 325.12 58.42)
+		)
+		(uuid "ddc8f9e8-accd-4c8e-9df1-9a2da6789e76")
+	)
+	(wire
+		(pts
+			(xy 337.82 71.12)
+			(xy 342.9 71.12)
+		)
+		(uuid "32392430-49c5-4ac0-985d-fe432e72f886")
+	)
+	(wire
+		(pts
+			(xy 337.82 76.2)
+			(xy 342.9 76.2)
+		)
+		(uuid "4a5f4dd7-2815-4107-965b-4e6ed1bc865c")
+	)
+	(wire
+		(pts
+			(xy 337.82 81.28)
+			(xy 342.9 81.28)
+		)
+		(uuid "9c8e1ed5-c9fb-476d-80b6-56dbb9893ac8")
+	)
+	(wire
+		(pts
+			(xy 337.82 86.36)
+			(xy 342.9 86.36)
+		)
+		(uuid "cac95734-148c-4ee5-a347-82bc640e6c29")
+	)
+	(wire
+		(pts
+			(xy 337.82 91.44)
+			(xy 342.9 91.44)
+		)
+		(uuid "95898bf2-7258-4d9a-b4b4-aa1fe6aa639d")
+	)
+	(wire
+		(pts
+			(xy 337.82 96.52)
+			(xy 342.9 96.52)
+		)
+		(uuid "50e4de6b-6dec-420c-b788-308b2ba36043")
+	)
+	(wire
+		(pts
+			(xy 337.82 101.6)
+			(xy 342.9 101.6)
+		)
+		(uuid "7a5ad137-4b65-4e36-aeb5-2cbad6ec6c13")
+	)
+	(wire
+		(pts
+			(xy 337.82 106.68)
+			(xy 342.9 106.68)
+		)
+		(uuid "88b2b002-bcb9-48a0-853c-353fa95ca490")
+	)
+	(wire
+		(pts
+			(xy 337.82 111.76)
+			(xy 342.9 111.76)
+		)
+		(uuid "c145304a-0c55-41b0-abb4-2d1ded8939d2")
+	)
+	(wire
+		(pts
+			(xy 337.82 116.84)
+			(xy 342.9 116.84)
+		)
+		(uuid "047af710-6cbf-437c-8f43-9a9c828bf968")
+	)
+	(wire
+		(pts
+			(xy 337.82 121.92)
+			(xy 342.9 121.92)
+		)
+		(uuid "d355f8cb-ee15-4ecb-9a09-97e08e57c736")
+	)
+	(wire
+		(pts
+			(xy 337.82 127)
+			(xy 342.9 127)
+		)
+		(uuid "50c16a3b-7c10-4c25-a120-a94818ad3f19")
+	)
+	(wire
+		(pts
+			(xy 337.82 132.08)
+			(xy 342.9 132.08)
+		)
+		(uuid "f28c230b-1cf7-4f95-8418-2396544f0e69")
+	)
+	(wire
+		(pts
+			(xy 337.82 137.16)
+			(xy 342.9 137.16)
+		)
+		(uuid "e9c146ad-e1e0-4c64-98f2-541745def0de")
+	)
+	(wire
+		(pts
+			(xy 337.82 142.24)
+			(xy 342.9 142.24)
+		)
+		(uuid "ff9c5d19-09ad-48de-855a-b7fea3337422")
+	)
+	(wire
+		(pts
+			(xy 337.82 147.32)
+			(xy 342.9 147.32)
+		)
+		(uuid "f9c6b8e9-4d80-4105-8f70-f7190671b051")
+	)
+	(wire
+		(pts
+			(xy 347.98 71.12)
+			(xy 347.98 147.32)
+		)
+		(uuid "6d90b5be-7b4a-435e-b76b-272da7aec1f6")
+	)
+	(wire
+		(pts
+			(xy 38.1 81.28)
+			(xy 35.56 81.28)
+		)
+		(uuid "f0ebe242-b6a9-47ff-8451-c3752cacec28")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28)
+			(xy 127 81.28)
+		)
+		(uuid "add15f90-7c64-497b-a013-3f174ccfcc55")
+	)
+	(wire
+		(pts
+			(xy 220.98 81.28)
+			(xy 218.44 81.28)
+		)
+		(uuid "01678c70-669d-41bb-8b25-cd8f6eaec3e9")
+	)
+	(wire
+		(pts
+			(xy 312.42 81.28)
+			(xy 309.88 81.28)
+		)
+		(uuid "0f63f25a-eb74-4fe6-aff0-19f663153d72")
+	)
+	(wire
+		(pts
+			(xy 38.1 86.36)
+			(xy 35.56 86.36)
+		)
+		(uuid "33fb57eb-de41-48cf-b27d-b05334c83851")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.36)
+			(xy 127 86.36)
+		)
+		(uuid "cb163585-58af-45e2-8095-97c646c3975a")
+	)
+	(wire
+		(pts
+			(xy 220.98 86.36)
+			(xy 218.44 86.36)
+		)
+		(uuid "9187a263-816c-492e-ac35-98406615a4ce")
+	)
+	(wire
+		(pts
+			(xy 312.42 86.36)
+			(xy 309.88 86.36)
+		)
+		(uuid "84ecb10c-49f9-4a8e-828d-3c9a9fcff5c0")
+	)
+	(wire
+		(pts
+			(xy 38.1 91.44)
+			(xy 35.56 91.44)
+		)
+		(uuid "65065ab7-97b4-4771-8bae-816d6d61d8c1")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44)
+			(xy 127 91.44)
+		)
+		(uuid "994b72d9-90f4-4074-83cf-516b931a0b57")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44)
+			(xy 218.44 91.44)
+		)
+		(uuid "cc87e0db-5534-4343-b3db-2177e3223684")
+	)
+	(wire
+		(pts
+			(xy 312.42 91.44)
+			(xy 309.88 91.44)
+		)
+		(uuid "8f71e37e-24d4-457f-a6dd-6a4535e654e9")
+	)
+	(wire
+		(pts
+			(xy 38.1 76.2)
+			(xy 35.56 76.2)
+		)
+		(uuid "cd691fad-aee7-4d16-a341-9e5ab0d5b407")
+	)
+	(wire
+		(pts
+			(xy 38.1 142.24)
+			(xy 35.56 142.24)
+		)
+		(uuid "8524b4c5-3e16-4848-8cc7-b9a436c42675")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2)
+			(xy 127 76.2)
+		)
+		(uuid "092cd29a-153a-4fa3-b8f2-76c205055fd4")
+	)
+	(wire
+		(pts
+			(xy 129.54 142.24)
+			(xy 127 142.24)
+		)
+		(uuid "c8d0e46e-91c0-4289-acec-4eb94900affc")
+	)
+	(wire
+		(pts
+			(xy 220.98 76.2)
+			(xy 218.44 76.2)
+		)
+		(uuid "5f55c482-5747-46e1-a187-92a78b5c4741")
+	)
+	(wire
+		(pts
+			(xy 220.98 142.24)
+			(xy 218.44 142.24)
+		)
+		(uuid "793196ba-d1ed-4556-a499-852ae031c886")
+	)
+	(wire
+		(pts
+			(xy 312.42 76.2)
+			(xy 309.88 76.2)
+		)
+		(uuid "2e6f5d05-dbe5-4779-ad79-565df028cc62")
+	)
+	(wire
+		(pts
+			(xy 312.42 142.24)
+			(xy 309.88 142.24)
+		)
+		(uuid "06fe6b52-7bf2-4fb2-bffe-7a9be509012f")
+	)
+	(label "CH_M1"
+		(at 35.56 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4e31f26-6a9a-4833-b46c-a11ed8601d07")
+	)
+	(label "CH_M1"
+		(at 127 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20208647-416e-4eba-8976-de5f89a7a016")
+	)
+	(label "CH_M2"
+		(at 127 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f6a7d4c-1e09-455e-826f-48f2d3bc151b")
+	)
+	(label "CH_M2"
+		(at 218.44 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "790691b5-6be1-46af-a925-40124874fc54")
+	)
+	(label "CH_M3"
+		(at 218.44 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cdd321c-d3f7-4817-bb1a-bf8342350760")
+	)
+	(label "CH_M3"
+		(at 309.88 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8769dc5-9171-408a-81fd-1347f72fe914")
+	)
+	(global_label "LED_CLK"
+		(shape input)
+		(at 35.56 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ee636f4-3c9a-486d-b87f-b2c59187ac8f")
+	)
+	(global_label "LED_CLK"
+		(shape input)
+		(at 127 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b2023bc-7da6-40ce-b5a1-aacf230a86b3")
+	)
+	(global_label "LED_CLK"
+		(shape input)
+		(at 218.44 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5860082-9d92-417b-b95e-d5b8794969cb")
+	)
+	(global_label "LED_CLK"
+		(shape input)
+		(at 309.88 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4dc415b-cc1a-44ee-b4b9-000eb012fa5b")
+	)
+	(global_label "LED_LE"
+		(shape input)
+		(at 35.56 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e664fce2-45d0-4dd3-b62f-94e483ee356c")
+	)
+	(global_label "LED_LE"
+		(shape input)
+		(at 127 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c6277c8-9c1c-4e74-bec9-740ae7389014")
+	)
+	(global_label "LED_LE"
+		(shape input)
+		(at 218.44 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e6a8958-5b24-4ef4-95f9-1c6aa697594c")
+	)
+	(global_label "LED_LE"
+		(shape input)
+		(at 309.88 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "900d17e4-99e0-489c-935a-e721db102eff")
+	)
+	(global_label "LED_OE"
+		(shape input)
+		(at 35.56 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fad32a56-c2b0-43ac-9171-d05fccb7a07b")
+	)
+	(global_label "LED_OE"
+		(shape input)
+		(at 127 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a583e9ec-a0f9-4a17-8dd1-1bdc111113f6")
+	)
+	(global_label "LED_OE"
+		(shape input)
+		(at 218.44 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58a0bb6a-7c65-4f2d-b7e9-41a6aea897b8")
+	)
+	(global_label "LED_OE"
+		(shape input)
+		(at 309.88 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e3062fe-a7a7-40b3-bf0b-22c08f9be456")
+	)
+	(global_label "LED_SDI"
+		(shape input)
+		(at 35.56 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a7a3e54-bb02-41bb-b126-36667e1afbaa")
+	)
+	(global_label "CHAIN_M_S"
+		(shape input)
+		(at 309.88 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cb66118-5275-4b1e-99b5-4450938644bc")
+	)
+	(symbol
+		(lib_id "kids-timer:SM16206S")
+		(at 50.8 109.22 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfb593c8-0761-4201-a1bf-90321e13bedc")
+		(property "Reference" "U10"
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM16206S"
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm"
+			(at 50.8 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881715816747008"
+			(at 50.8 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C121618"
+			(at 50.8 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM16206S"
+			(at 50.8 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 137.16 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e382118-53dd-4e08-9730-d9cfb86630cb")
+		(property "Reference" "R30"
+			(at 30.48 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 30.48 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C25890"
+			(at 30.48 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 62.23 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f30d755a-efd2-40f2-a43a-7dd8c0d6d619")
+		(property "Reference" "C30"
+			(at 43.815 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 43.815 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 43.18 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C1525"
+			(at 43.18 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1e21fc7-eeaa-4a56-8dde-52b6f7e43b18")
+		(property "Reference" "D100"
+			(at 69.85 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D100")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 76.2 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8a500fe-d56e-47e7-9ebc-a34b457541ba")
+		(property "Reference" "D101"
+			(at 69.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 81.28 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e591195-96fc-4389-b070-3ee4af3d081c")
+		(property "Reference" "D102"
+			(at 69.85 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 86.36 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e5c8b3b-99a5-4032-9241-ebd6e97b8790")
+		(property "Reference" "D103"
+			(at 69.85 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 91.44 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd5cf528-736e-40c4-a519-718c49076fba")
+		(property "Reference" "D104"
+			(at 69.85 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 96.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "444c7f99-465f-4aa1-8ccf-31b398981b2f")
+		(property "Reference" "D105"
+			(at 69.85 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 101.6 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee5a6d88-670e-452c-930f-bc0d7b97420b")
+		(property "Reference" "D106"
+			(at 69.85 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D106")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 106.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "351f7177-5e65-4d7e-ad4b-9de845703de5")
+		(property "Reference" "D107"
+			(at 69.85 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D107")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 111.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c765c19-d296-412c-8228-1948a0edb32c")
+		(property "Reference" "D108"
+			(at 69.85 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D108")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 116.84 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29440810-6c53-4637-beed-739341f133fc")
+		(property "Reference" "D109"
+			(at 69.85 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D109")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 121.92 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "171d202e-b588-4f0a-a030-da9debd96c37")
+		(property "Reference" "D110"
+			(at 69.85 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D110")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 127 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b69c903-5472-4edd-9984-3b9d22815422")
+		(property "Reference" "D111"
+			(at 69.85 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D111")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 132.08 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "368f968e-aedf-49e8-8df9-0319bae30089")
+		(property "Reference" "D112"
+			(at 69.85 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D112")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "628e3f83-9f11-486e-935e-dd505a5a69c7")
+		(property "Reference" "D113"
+			(at 69.85 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D113")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 142.24 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e087e219-9ac0-4f68-b96d-e707c36a0d89")
+		(property "Reference" "D114"
+			(at 69.85 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D114")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 147.32 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37afb211-153b-49dd-a386-626efe11f3ac")
+		(property "Reference" "D115"
+			(at 69.85 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 66.675 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 71.12 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 71.12 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 71.12 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 71.12 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "kids-timer:SM16206S")
+		(at 142.24 109.22 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53db9494-4453-4b61-9242-52a5831a13de")
+		(property "Reference" "U11"
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM16206S"
+			(at 142.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm"
+			(at 142.24 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881715816747008"
+			(at 142.24 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C121618"
+			(at 142.24 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM16206S"
+			(at 142.24 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 137.16 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "258661fb-85e7-4ad1-a063-953410ae6b2c")
+		(property "Reference" "R31"
+			(at 121.92 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 121.92 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 121.92 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C25890"
+			(at 121.92 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 62.23 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a27f00cb-492a-4ea8-9836-5b1113d8d0b5")
+		(property "Reference" "C31"
+			(at 135.255 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 135.255 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 134.62 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C1525"
+			(at 134.62 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6620cccc-c7c8-4f92-807e-500c10cba2ee")
+		(property "Reference" "D116"
+			(at 161.29 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D116")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 76.2 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b778667-2af2-4fd7-8717-99489680113b")
+		(property "Reference" "D117"
+			(at 161.29 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D117")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 81.28 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cf255a5-fe3e-4261-8ade-bc34f3a46a1e")
+		(property "Reference" "D118"
+			(at 161.29 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D118")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c347a459-53ef-4a0f-990c-85dba0344b0d")
+		(property "Reference" "D119"
+			(at 161.29 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D119")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 91.44 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "140606d9-2d03-4084-8032-0c50ca5d375d")
+		(property "Reference" "D120"
+			(at 161.29 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D120")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 96.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81215298-4c77-4dbd-9d4c-51d0ac17315a")
+		(property "Reference" "D121"
+			(at 161.29 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D121")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 101.6 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae7f743f-651d-4d30-ad02-92002dd31a9a")
+		(property "Reference" "D122"
+			(at 161.29 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D122")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 106.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "408fa92a-8e81-4e39-92bb-254ea677c8cd")
+		(property "Reference" "D123"
+			(at 161.29 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D123")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 111.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28ca17b9-565e-450e-8973-59323a074474")
+		(property "Reference" "D124"
+			(at 161.29 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D124")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 116.84 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c7ac025-78e2-4668-bb94-9b4e84524547")
+		(property "Reference" "D125"
+			(at 161.29 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D125")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 121.92 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc291054-45bd-4a01-a8ba-40a1102019fe")
+		(property "Reference" "D126"
+			(at 161.29 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D126")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 127 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fffb2585-37ea-4c42-ab44-c4dee336e8c5")
+		(property "Reference" "D127"
+			(at 161.29 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D127")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 132.08 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f88f0e-1de8-40d7-847e-fe2fd1b71ea0")
+		(property "Reference" "D128"
+			(at 161.29 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D128")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24204cfa-5d14-4a30-bdfb-893f9bbe4fcc")
+		(property "Reference" "D129"
+			(at 161.29 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D129")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 142.24 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9edadd68-df56-4ca5-9e8a-49491bc342da")
+		(property "Reference" "D130"
+			(at 161.29 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D130")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 147.32 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b62f421-1cb0-44bd-9d69-bebe217e2978")
+		(property "Reference" "D131"
+			(at 161.29 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 158.115 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 162.56 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D131")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 162.56 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 162.56 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "kids-timer:SM16206S")
+		(at 233.68 109.22 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a28f4949-b75c-4cab-9328-a10daa13f951")
+		(property "Reference" "U12"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM16206S"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm"
+			(at 233.68 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881715816747008"
+			(at 233.68 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C121618"
+			(at 233.68 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM16206S"
+			(at 233.68 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 137.16 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d76b75fa-d232-42b9-b2a2-fcccc2760e36")
+		(property "Reference" "R32"
+			(at 213.36 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 213.36 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 213.36 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C25890"
+			(at 213.36 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 62.23 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d68dd19d-6f61-4ce3-83e8-fca85f4ed6e2")
+		(property "Reference" "C32"
+			(at 226.695 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.695 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 226.06 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 226.06 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C1525"
+			(at 226.06 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86ab095a-1dd1-4705-9c02-f72edec218da")
+		(property "Reference" "D132"
+			(at 252.73 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D132")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 76.2 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee12159f-0c20-45f1-b7a0-cbbb3dba04b0")
+		(property "Reference" "D133"
+			(at 252.73 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D133")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 81.28 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f54e0bc6-857a-4097-9563-34417e8e7eb7")
+		(property "Reference" "D134"
+			(at 252.73 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D134")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 86.36 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40057bb9-8812-46c9-bcfc-d2fbc116a0d8")
+		(property "Reference" "D135"
+			(at 252.73 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D135")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 91.44 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13d4cf89-01f0-4172-8651-6b76458ef34d")
+		(property "Reference" "D136"
+			(at 252.73 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D136")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 96.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e248dd9-9efe-4db9-8f2a-d9679c0c7b67")
+		(property "Reference" "D137"
+			(at 252.73 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D137")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 101.6 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f68e10d-320a-4f54-b88c-f9306d2fb9c6")
+		(property "Reference" "D138"
+			(at 252.73 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D138")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 106.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8ec55f1-3114-45b0-92d2-ed1f5182fa0e")
+		(property "Reference" "D139"
+			(at 252.73 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D139")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 111.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c303f52-e12c-44ba-a2dd-c888be8dcfa2")
+		(property "Reference" "D140"
+			(at 252.73 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D140")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 116.84 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d75c255e-4001-40c3-a9fa-013311ea5532")
+		(property "Reference" "D141"
+			(at 252.73 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D141")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 121.92 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d467582-b39d-42c8-9ea4-46578e3294e9")
+		(property "Reference" "D142"
+			(at 252.73 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D142")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 127 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fbdf63f-a1cd-424a-b1b5-cad3d3f331ac")
+		(property "Reference" "D143"
+			(at 252.73 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D143")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 132.08 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ff9152-e445-4276-a15b-f16575b93e0a")
+		(property "Reference" "D144"
+			(at 252.73 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D144")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2b806cd-3829-441b-bbd5-0f4c9eae9e4c")
+		(property "Reference" "D145"
+			(at 252.73 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D145")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 142.24 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef1a3645-bc1e-4f3d-b27f-69ee8a25394d")
+		(property "Reference" "D146"
+			(at 252.73 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D146")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 254 147.32 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dabfbd95-cc33-4098-9545-b3e4be553d12")
+		(property "Reference" "D147"
+			(at 252.73 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 249.555 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 254 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 254 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D147")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 254 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 254 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "kids-timer:SM16206S")
+		(at 325.12 109.22 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61316c63-9436-4850-8534-8116d2e08668")
+		(property "Reference" "U13"
+			(at 325.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM16206S"
+			(at 325.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm"
+			(at 325.12 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881715816747008"
+			(at 325.12 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C121618"
+			(at 325.12 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM16206S"
+			(at 325.12 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:R")
+		(at 304.8 137.16 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "888796b1-4239-4f30-abfd-127fa8342a63")
+		(property "Reference" "R33"
+			(at 304.8 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 304.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 304.8 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C25890"
+			(at 304.8 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:C")
+		(at 317.5 62.23 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e28b4f8b-1aca-488a-bfe3-477f2ddbf05d")
+		(property "Reference" "C33"
+			(at 318.135 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 318.135 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 317.5 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 317.5 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C1525"
+			(at 317.5 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "273416bb-8911-49c7-9bf4-aee4c1f387ad")
+		(property "Reference" "D148"
+			(at 344.17 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D148")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 76.2 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7504922-8bb5-455e-8402-d4e200a34b78")
+		(property "Reference" "D149"
+			(at 344.17 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D149")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 81.28 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74fdfd80-73b0-402c-bfa9-a3d0a711b953")
+		(property "Reference" "D150"
+			(at 344.17 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D150")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 86.36 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1723fcb-d5e9-4b73-a731-d9e893ba5fed")
+		(property "Reference" "D151"
+			(at 344.17 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D151")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 91.44 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2c5ec13-fdba-474a-8b53-9eb9fe93e5f8")
+		(property "Reference" "D152"
+			(at 344.17 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D152")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 91.44 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 96.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f5926a0-b559-498f-97ab-a60dc89df957")
+		(property "Reference" "D153"
+			(at 344.17 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D153")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 101.6 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "606a3fdf-5368-449c-a23a-4a3fdc136b40")
+		(property "Reference" "D154"
+			(at 344.17 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D154")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 106.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f172075-5a0f-48f5-a95c-4dc8416effe5")
+		(property "Reference" "D155"
+			(at 344.17 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D155")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 106.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 111.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bca0b12-836e-436f-ac38-194060b0e594")
+		(property "Reference" "D156"
+			(at 344.17 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D156")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 116.84 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a35689e3-1974-4bd8-9339-28f0ed29b459")
+		(property "Reference" "D157"
+			(at 344.17 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D157")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 121.92 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "982b67f4-bc8a-4813-aa09-9233fd915146")
+		(property "Reference" "D158"
+			(at 344.17 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D158")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 121.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 127 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb37e88-8309-4309-ad76-0db154fdf95d")
+		(property "Reference" "D159"
+			(at 344.17 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 340.995 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 345.44 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D159")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2297"
+			(at 345.44 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 345.44 127 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 132.08 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba1dd438-ed83-4ce9-aa98-ee7e34490e57")
+		(property "Reference" "D160"
+			(at 344.17 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STATUS"
+			(at 340.995 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 345.44 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D160")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2286"
+			(at 345.44 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0603R"
+			(at 345.44 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c367a459-9b60-4974-811b-bf31e591eb2b")
+		(property "Reference" "D161"
+			(at 344.17 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STATUS"
+			(at 340.995 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 345.44 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D161")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2286"
+			(at 345.44 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0603R"
+			(at 345.44 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 142.24 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc3bc2dd-ceb1-45e2-a957-8b806c0d575b")
+		(property "Reference" "D162"
+			(at 344.17 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STATUS"
+			(at 340.995 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 345.44 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D162")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2286"
+			(at 345.44 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0603R"
+			(at 345.44 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 345.44 147.32 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e06f5f9-c602-4858-a859-c6882c03c9cd")
+		(property "Reference" "D163"
+			(at 344.17 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STATUS"
+			(at 340.995 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 345.44 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 345.44 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D163")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C2286"
+			(at 345.44 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0603R"
+			(at 345.44 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "power:VCC")
+		(at 50.8 58.42 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cd1df40-91f5-4054-82ae-8216afd5780f")
+		(property "Reference" "#PWR01"
+			(at 50.8 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_LED"
+			(at 50.8 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 142.24 58.42 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d8e949e-aafa-4ac8-8221-73b62c070f5d")
+		(property "Reference" "#PWR02"
+			(at 142.24 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_LED"
+			(at 142.24 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 142.24 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 233.68 58.42 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1934ae8-490c-4674-9968-2e4e07b369c6")
+		(property "Reference" "#PWR03"
+			(at 233.68 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_LED"
+			(at 233.68 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 233.68 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 325.12 58.42 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "290d6116-1c72-4f05-8b91-b562ae6782e7")
+		(property "Reference" "#PWR04"
+			(at 325.12 62.23 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_LED"
+			(at 325.12 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 325.12 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 73.66 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7db3d527-4c95-4597-b221-d2fcf8315c24")
+		(property "Reference" "#PWR05"
+			(at 73.66 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 73.66 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 73.66 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 165.1 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3900ae3-11f2-43f6-9eff-6083e5ce5925")
+		(property "Reference" "#PWR06"
+			(at 165.1 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 165.1 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 165.1 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 256.54 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c57e48a-15d7-40ab-ba26-98148ec51de0")
+		(property "Reference" "#PWR07"
+			(at 256.54 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 256.54 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 256.54 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 347.98 71.12 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab014df1-134b-4c9d-a551-b4ee38587223")
+		(property "Reference" "#PWR08"
+			(at 347.98 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 347.98 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 347.98 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 66.04 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e3b5815-6112-4391-a7ac-abe336904aae")
+		(property "Reference" "#PWR09"
+			(at 43.18 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 66.04 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b5c0851-537f-4b46-b27d-18a369a81b3e")
+		(property "Reference" "#PWR010"
+			(at 134.62 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 66.04 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25530da5-34cb-4d9c-9475-285f2e3864fe")
+		(property "Reference" "#PWR011"
+			(at 226.06 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 317.5 66.04 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52bd9a1e-47d1-4e14-bcfc-d128d2cdd5a2")
+		(property "Reference" "#PWR012"
+			(at 317.5 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 317.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 317.5 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 152.4 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c74ef77-2d60-4312-bf9c-d5c2c2b1d486")
+		(property "Reference" "#PWR013"
+			(at 50.8 158.75 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 152.4 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb2524d6-71e0-48a1-8b45-96b3a4d05b50")
+		(property "Reference" "#PWR014"
+			(at 142.24 158.75 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 152.4 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "789b0e1e-bd53-402d-b2e5-687c8f8e13a6")
+		(property "Reference" "#PWR015"
+			(at 233.68 158.75 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 325.12 152.4 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0582ae7f-8ad5-44cb-8064-dc69f9320f72")
+		(property "Reference" "#PWR016"
+			(at 325.12 158.75 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 137.16 270)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5f20aa7-5363-4ec1-bba7-4ead28e40252")
+		(property "Reference" "#PWR017"
+			(at 20.32 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 137.16 270)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30c3c0fe-e2f1-41f2-9d6f-2d4fbb0c0a78")
+		(property "Reference" "#PWR018"
+			(at 111.76 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 137.16 270)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4cbdc9f-2b70-4e35-8103-429bd3db0866")
+		(property "Reference" "#PWR019"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 300.99 137.16 270)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "250318e6-6718-4b01-b279-a03c47bcd47f")
+		(property "Reference" "#PWR020"
+			(at 294.64 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 300.99 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 375.92 76.2 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "108e77dd-f9ac-4ab9-8ff5-bff8a371d0c8")
+		(property "Reference" "C34"
+			(at 376.555 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 376.555 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 375.92 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 375.92 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	
+		(property "LCSC" "C45783"
+			(at 375.92 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
+	(symbol
+		(lib_id "power:VCC")
+		(at 375.92 72.39 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db4abbe9-6670-4e64-a071-ce3f3f46cdff")
+		(property "Reference" "#PWR021"
+			(at 375.92 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 375.92 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 375.92 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 375.92 80.01 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39b65291-f50f-439f-8144-371318023dfc")
+		(property "Reference" "#PWR022"
+			(at 375.92 86.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 375.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 80.01 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 80.01 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 375.92 80.01 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -64,6 +64,93 @@
       )
     )
   )
+  (sheet
+    (at 30 90)
+    (size 50 30)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0))
+    (uuid "2485d086-a5dc-4870-af6c-da1125a7707d")
+    (property "Sheetname" "Minutes ring"
+      (at 30 89.365 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "minutes.kicad_sch"
+      (at 30 120.635 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kids-timer"
+        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "4"))
+      )
+    )
+  )
+  (sheet
+    (at 100 90)
+    (size 50 30)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0))
+    (uuid "9715adb9-8618-45e5-8594-669b2dbadc35")
+    (property "Sheetname" "Seconds ring"
+      (at 100 89.365 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "seconds.kicad_sch"
+      (at 100 120.635 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kids-timer"
+        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "5"))
+      )
+    )
+  )
+  (sheet
+    (at 170 90)
+    (size 50 30)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0))
+    (uuid "76a4ef11-d399-4323-ba8d-1155db334534")
+    (property "Sheetname" "Display"
+      (at 170 89.365 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "display.kicad_sch"
+      (at 170 120.635 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kids-timer"
+        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "6"))
+      )
+    )
+  )
   (sheet_instances
     (path "/"
       (page "1")
