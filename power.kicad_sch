@@ -7600,7 +7600,7 @@
 			)
 		)
 	
-		(property "LCSC" "TBD"
+		(property "LCSC" "C295747"
 			(at 30.48 198.12 0)
 			(hide yes)
 			(effects
@@ -7609,7 +7609,7 @@
 				)
 			)
 		)
-		(property "MPN" "S2B-PH-SM4-TB or compatible"
+		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
 			(at 30.48 198.12 0)
 			(hide yes)
 			(effects

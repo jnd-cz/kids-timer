@@ -1331,6 +1331,300 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol
+		  "kids-timer:STK8328-C"
+		  (pin_names
+		    (offset 1.016)
+		  )
+		  (exclude_from_sim no)
+		  (in_bom yes)
+		  (on_board yes)
+		  (in_pos_files yes)
+		  (duplicate_pin_numbers_are_jumpers no)
+		  (property "Reference" "U"
+		    (at 0 12.7000 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Value" "STK8328-C"
+		    (at 0 -12.7000 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Footprint" ""
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Datasheet" "https://www.lcsc.com/datasheet/C49230199.pdf"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Description" ""
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (symbol "STK8328-C_0_1"
+		    (rectangle
+		      (start -10.16 10.16)
+		      (end 10.16 -10.16)
+		      (stroke
+		        (width 0.254)
+		        (type default)
+		      )
+		      (fill
+		        (type background)
+		      )
+		    )
+		    (pin power_in line
+		      (at -2.54 12.7 270)
+		      (length 2.54)
+		      (name "VS"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "9"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin power_in line
+		      (at 2.54 12.7 270)
+		      (length 2.54)
+		      (name "VDDIO"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "10"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin power_in line
+		      (at -2.54 -12.7 90)
+		      (length 2.54)
+		      (name "GND"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "6"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin power_in line
+		      (at 0 -12.7 90)
+		      (length 2.54)
+		      (name "GNDIO"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "8"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin passive line
+		      (at 2.54 -12.7 90)
+		      (length 2.54)
+		      (name "RSVD"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "7"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -12.7 5.08 0)
+		      (length 2.54)
+		      (name "SCL"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "1"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin bidirectional line
+		      (at -12.7 2.54 0)
+		      (length 2.54)
+		      (name "SDA"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "4"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -12.7 0 0)
+		      (length 2.54)
+		      (name "SA0/SDO"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "3"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -12.7 -2.54 0)
+		      (length 2.54)
+		      (name "~{CS}"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "2"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin output line
+		      (at 12.7 2.54 180)
+		      (length 2.54)
+		      (name "INT1"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "12"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin output line
+		      (at 12.7 0 180)
+		      (length 2.54)
+		      (name "INT2"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "11"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin no_connect line
+		      (at 12.7 -5.08 180)
+		      (length 2.54)
+		      (name "NC"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "5"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		  )
+		  (embedded_fonts no)
+		)
 	)
 	(junction
 		(at 60.96 129.54)
@@ -1343,12 +1637,8 @@
 		(uuid "26256ba2-7067-4e1b-bd85-dd5886d59460")
 	)
 	(no_connect
-		(at 48.26 116.84)
-		(uuid "0295ac5d-1b42-4fc4-8f9b-e292b1b20c19")
-	)
-	(no_connect
 		(at 73.66 121.92)
-		(uuid "a87e72c8-3297-4122-b23c-181c434aa6fe")
+		(uuid "69916265-323a-42ba-979f-091e17002b28")
 	)
 	(wire
 		(pts
@@ -1503,6 +1793,13 @@
 			(xy 157.48 127)
 		)
 		(uuid "54f4982d-39bb-4912-9077-669638ad4418")
+	)
+	(wire
+		(pts
+			(xy 48.26 116.84)
+			(xy 48.26 119.38)
+		)
+		(uuid "d82e753f-2d16-43ef-b2ba-2994ede917dd")
 	)
 	(global_label "I2C_SCL"
 		(shape input)
@@ -1742,15 +2039,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C132182"
 			(at 60.96 60.96 0)
 			(hide yes)
@@ -1768,7 +2056,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 76.2 55.88 0)
@@ -1822,15 +2119,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C1525"
 			(at 76.2 55.88 0)
 			(hide yes)
@@ -1839,7 +2127,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 83.82 55.88 0)
@@ -1891,15 +2188,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C25744"
 			(at 83.82 55.88 0)
 			(hide yes)
@@ -1908,9 +2196,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
-		(lib_id "kids-timer:SC7A20H")
+		(lib_id "kids-timer:STK8328-C")
 		(at 60.96 116.84 0)
 		(unit 1)
 		(in_bom yes)
@@ -1925,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Value" "SC7A20H"
+		(property "Value" "STK8328-C"
 			(at 60.96 129.54 0)
 			(effects
 				(font
@@ -1942,7 +2239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590906948865253376"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49230199.pdf"
 			(at 60.96 116.84 0)
 			(hide yes)
 			(effects
@@ -1960,6 +2257,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C49230199"
+			(at 60.96 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STK8328-C"
+			(at 60.96 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
@@ -1968,25 +2283,7 @@
 				)
 			)
 		)
-	
-		(property "LCSC" "C19274408"
-			(at 60.96 116.84 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SC7A20HTR"
-			(at 60.96 116.84 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 83.82 106.68 0)
@@ -2040,15 +2337,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C1525"
 			(at 83.82 106.68 0)
 			(hide yes)
@@ -2057,7 +2345,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 91.44 106.68 0)
@@ -2111,15 +2408,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C23733"
 			(at 91.44 106.68 0)
 			(hide yes)
@@ -2128,7 +2416,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 27.94 50.8 0)
@@ -2180,15 +2477,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C25900"
 			(at 27.94 50.8 0)
 			(hide yes)
@@ -2197,7 +2485,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 35.56 50.8 0)
@@ -2249,15 +2546,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C25900"
 			(at 35.56 50.8 0)
 			(hide yes)
@@ -2266,7 +2554,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 139.7 50.8 0)
@@ -2292,7 +2589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "kids-timer:SW_SPST_XUNPU_TS-1088_3.9x3mm"
 			(at 139.7 50.8 0)
 			(hide yes)
 			(effects
@@ -2319,6 +2616,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C720477"
+			(at 139.7 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 139.7 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
@@ -2327,25 +2642,7 @@
 				)
 			)
 		)
-	
-		(property "LCSC" "C21262539"
-			(at 139.7 50.8 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TS-1187A-C-A-A"
-			(at 139.7 50.8 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 139.7 63.5 0)
@@ -2371,7 +2668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "kids-timer:SW_SPST_XUNPU_TS-1088_3.9x3mm"
 			(at 139.7 63.5 0)
 			(hide yes)
 			(effects
@@ -2398,6 +2695,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C720477"
+			(at 139.7 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 139.7 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
@@ -2406,25 +2721,7 @@
 				)
 			)
 		)
-	
-		(property "LCSC" "C21262539"
-			(at 139.7 63.5 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TS-1187A-C-A-A"
-			(at 139.7 63.5 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 139.7 76.2 0)
@@ -2450,7 +2747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "kids-timer:SW_SPST_XUNPU_TS-1088_3.9x3mm"
 			(at 139.7 76.2 0)
 			(hide yes)
 			(effects
@@ -2477,6 +2774,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C720477"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
@@ -2485,25 +2800,7 @@
 				)
 			)
 		)
-	
-		(property "LCSC" "C21262539"
-			(at 139.7 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TS-1187A-C-A-A"
-			(at 139.7 76.2 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 104.14 0)
@@ -2555,15 +2852,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "Config" "PCB copper only"
 			(at 139.7 104.14 0)
 			(hide yes)
@@ -2581,7 +2869,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 127 0)
@@ -2633,15 +2930,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "Config" "PCB copper only"
 			(at 139.7 127 0)
 			(hide yes)
@@ -2659,7 +2947,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 157.48 110.49 0)
@@ -2711,15 +3008,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C26083"
 			(at 157.48 110.49 0)
 			(hide yes)
@@ -2728,7 +3016,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 157.48 133.35 0)
@@ -2780,15 +3077,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C26083"
 			(at 157.48 133.35 0)
 			(hide yes)
@@ -2797,7 +3085,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 60.96 50.8 0)

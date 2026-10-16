@@ -1319,7 +1319,7 @@
 			)
 		)
 	
-		(property "LCSC" "TBD (pre-order / hand-solder)"
+		(property "LCSC" "C49451547"
 			(at 101.6 88.9 0)
 			(hide yes)
 			(effects
