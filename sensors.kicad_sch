@@ -1331,299 +1331,298 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol
-		  "kids-timer:STK8328-C"
-		  (pin_names
-		    (offset 1.016)
-		  )
-		  (exclude_from_sim no)
-		  (in_bom yes)
-		  (on_board yes)
-		  (in_pos_files yes)
-		  (duplicate_pin_numbers_are_jumpers no)
-		  (property "Reference" "U"
-		    (at 0 12.7000 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Value" "STK8328-C"
-		    (at 0 -12.7000 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Footprint" ""
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Datasheet" "https://www.lcsc.com/datasheet/C49230199.pdf"
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (property "Description" ""
-		    (at 0 0 0)
-		    (show_name no)
-		    (do_not_autoplace no)
-		    (hide yes)
-		    (effects
-		      (font
-		        (size 1.27 1.27)
-		      )
-		    )
-		  )
-		  (symbol "STK8328-C_0_1"
-		    (rectangle
-		      (start -10.16 10.16)
-		      (end 10.16 -10.16)
-		      (stroke
-		        (width 0.254)
-		        (type default)
-		      )
-		      (fill
-		        (type background)
-		      )
-		    )
-		    (pin power_in line
-		      (at -2.54 12.7 270)
-		      (length 2.54)
-		      (name "VS"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "9"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin power_in line
-		      (at 2.54 12.7 270)
-		      (length 2.54)
-		      (name "VDDIO"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "10"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin power_in line
-		      (at -2.54 -12.7 90)
-		      (length 2.54)
-		      (name "GND"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "6"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin power_in line
-		      (at 0 -12.7 90)
-		      (length 2.54)
-		      (name "GNDIO"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "8"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin passive line
-		      (at 2.54 -12.7 90)
-		      (length 2.54)
-		      (name "RSVD"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "7"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin input line
-		      (at -12.7 5.08 0)
-		      (length 2.54)
-		      (name "SCL"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "1"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin bidirectional line
-		      (at -12.7 2.54 0)
-		      (length 2.54)
-		      (name "SDA"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "4"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin input line
-		      (at -12.7 0 0)
-		      (length 2.54)
-		      (name "SA0/SDO"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "3"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin input line
-		      (at -12.7 -2.54 0)
-		      (length 2.54)
-		      (name "~{CS}"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "2"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin output line
-		      (at 12.7 2.54 180)
-		      (length 2.54)
-		      (name "INT1"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "12"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin output line
-		      (at 12.7 0 180)
-		      (length 2.54)
-		      (name "INT2"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "11"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		    (pin no_connect line
-		      (at 12.7 -5.08 180)
-		      (length 2.54)
-		      (name "NC"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		      (number "5"
-		        (effects
-		          (font
-		            (size 1.27 1.27)
-		          )
-		        )
-		      )
-		    )
-		  )
-		  (embedded_fonts no)
+		(symbol "kids-timer:STK8328-C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.7000 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STK8328-C"
+				(at 0 -12.7000 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C49230199.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STK8328-C_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "SA0/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1800,6 +1799,20 @@
 			(xy 48.26 119.38)
 		)
 		(uuid "d82e753f-2d16-43ef-b2ba-2994ede917dd")
+	)
+	(wire
+		(pts
+			(xy 134.62 88.9)
+			(xy 132.08 88.9)
+		)
+		(uuid "ce5d10a0-97da-4305-85c8-5a8ed5bf8e4e")
+	)
+	(wire
+		(pts
+			(xy 134.62 96.52)
+			(xy 132.08 96.52)
+		)
+		(uuid "5db68b3d-5c9f-4327-ae13-818808350030")
 	)
 	(global_label "I2C_SCL"
 		(shape input)
@@ -1987,6 +2000,28 @@
 			(justify left)
 		)
 		(uuid "bd597aeb-a0ce-4fac-a941-8bb9811ca123")
+	)
+	(global_label "BTN4"
+		(shape input)
+		(at 132.08 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48009dbd-01f0-4235-9689-ecf5e8a2d860")
+	)
+	(global_label "BTN5"
+		(shape input)
+		(at 132.08 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2d56f01-edcc-462b-a487-d514094073e7")
 	)
 	(symbol
 		(lib_id "kids-timer:VEML6030")
@@ -4127,6 +4162,286 @@
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 88.9 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0539b21a-094b-4de1-9429-afb659b67d1d")
+		(property "Reference" "SW7"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTN4"
+			(at 139.7 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kids-timer:SW_SPST_XUNPU_TS-1088_3.9x3mm"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 96.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d3ed4cd-43c6-41a0-98ed-678db01f1731")
+		(property "Reference" "SW8"
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTN5"
+			(at 139.7 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kids-timer:SW_SPST_XUNPU_TS-1088_3.9x3mm"
+			(at 139.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 139.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 139.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 88.9 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e196368-c53d-4941-9639-561fd587e210")
+		(property "Reference" "#PWR018"
+			(at 144.78 95.25 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 96.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa4d9ab6-68d6-4ff8-9165-f9a0559edd79")
+		(property "Reference" "#PWR019"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)

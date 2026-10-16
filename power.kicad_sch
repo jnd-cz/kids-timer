@@ -8677,7 +8677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+		(property "Footprint" "kids-timer:SW_SPDT_MSK12C02_EdgeNotch"
 			(at 256.54 111.76 0)
 			(hide yes)
 			(effects
