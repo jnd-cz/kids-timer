@@ -1,0 +1,29 @@
+# KiCad temporary / backup files
+*-backups/
+*.lck
+_autosave-*
+\#auto_saved_files#
+fp-info-cache
+*.kicad_prl
+~*.lck
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+.history/
+
+# Konnect / tooling state
+.konnect/
+
+# Fabrication outputs (regenerated on demand)
+production/
+gerbers/
+jlcpcb/
+
+# MicroPython / Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
