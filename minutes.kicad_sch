@@ -3008,7 +3008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 71.12 0)
 			(hide yes)
 			(effects
@@ -3088,7 +3088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 76.2 0)
 			(hide yes)
 			(effects
@@ -3168,7 +3168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 81.28 0)
 			(hide yes)
 			(effects
@@ -3248,7 +3248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 86.36 0)
 			(hide yes)
 			(effects
@@ -3328,7 +3328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 91.44 0)
 			(hide yes)
 			(effects
@@ -3408,7 +3408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 96.52 0)
 			(hide yes)
 			(effects
@@ -3488,7 +3488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 101.6 0)
 			(hide yes)
 			(effects
@@ -3568,7 +3568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 106.68 0)
 			(hide yes)
 			(effects
@@ -3648,7 +3648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 111.76 0)
 			(hide yes)
 			(effects
@@ -3728,7 +3728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 116.84 0)
 			(hide yes)
 			(effects
@@ -3808,7 +3808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 121.92 0)
 			(hide yes)
 			(effects
@@ -3888,7 +3888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 127 0)
 			(hide yes)
 			(effects
@@ -3968,7 +3968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(effects
@@ -4048,7 +4048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 137.16 0)
 			(hide yes)
 			(effects
@@ -4128,7 +4128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 142.24 0)
 			(hide yes)
 			(effects
@@ -4208,7 +4208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 71.12 147.32 0)
 			(hide yes)
 			(effects
@@ -4506,7 +4506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 71.12 0)
 			(hide yes)
 			(effects
@@ -4586,7 +4586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 76.2 0)
 			(hide yes)
 			(effects
@@ -4666,7 +4666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 81.28 0)
 			(hide yes)
 			(effects
@@ -4746,7 +4746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 86.36 0)
 			(hide yes)
 			(effects
@@ -4826,7 +4826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 91.44 0)
 			(hide yes)
 			(effects
@@ -4906,7 +4906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 96.52 0)
 			(hide yes)
 			(effects
@@ -4986,7 +4986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 101.6 0)
 			(hide yes)
 			(effects
@@ -5066,7 +5066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 106.68 0)
 			(hide yes)
 			(effects
@@ -5146,7 +5146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 111.76 0)
 			(hide yes)
 			(effects
@@ -5226,7 +5226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 116.84 0)
 			(hide yes)
 			(effects
@@ -5306,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 121.92 0)
 			(hide yes)
 			(effects
@@ -5386,7 +5386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 127 0)
 			(hide yes)
 			(effects
@@ -5466,7 +5466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 132.08 0)
 			(hide yes)
 			(effects
@@ -5546,7 +5546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 137.16 0)
 			(hide yes)
 			(effects
@@ -5626,7 +5626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 142.24 0)
 			(hide yes)
 			(effects
@@ -5706,7 +5706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 162.56 147.32 0)
 			(hide yes)
 			(effects
@@ -6004,7 +6004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 71.12 0)
 			(hide yes)
 			(effects
@@ -6084,7 +6084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 76.2 0)
 			(hide yes)
 			(effects
@@ -6164,7 +6164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 81.28 0)
 			(hide yes)
 			(effects
@@ -6244,7 +6244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 86.36 0)
 			(hide yes)
 			(effects
@@ -6324,7 +6324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 91.44 0)
 			(hide yes)
 			(effects
@@ -6404,7 +6404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 96.52 0)
 			(hide yes)
 			(effects
@@ -6484,7 +6484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 101.6 0)
 			(hide yes)
 			(effects
@@ -6564,7 +6564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 106.68 0)
 			(hide yes)
 			(effects
@@ -6644,7 +6644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 111.76 0)
 			(hide yes)
 			(effects
@@ -6724,7 +6724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 116.84 0)
 			(hide yes)
 			(effects
@@ -6804,7 +6804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 121.92 0)
 			(hide yes)
 			(effects
@@ -6884,7 +6884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 127 0)
 			(hide yes)
 			(effects
@@ -6964,7 +6964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 132.08 0)
 			(hide yes)
 			(effects
@@ -7044,7 +7044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 137.16 0)
 			(hide yes)
 			(effects
@@ -7124,7 +7124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 142.24 0)
 			(hide yes)
 			(effects
@@ -7204,7 +7204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 254 147.32 0)
 			(hide yes)
 			(effects
@@ -7502,7 +7502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 71.12 0)
 			(hide yes)
 			(effects
@@ -7582,7 +7582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 76.2 0)
 			(hide yes)
 			(effects
@@ -7662,7 +7662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 81.28 0)
 			(hide yes)
 			(effects
@@ -7742,7 +7742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 86.36 0)
 			(hide yes)
 			(effects
@@ -7822,7 +7822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 91.44 0)
 			(hide yes)
 			(effects
@@ -7902,7 +7902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 96.52 0)
 			(hide yes)
 			(effects
@@ -7982,7 +7982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 101.6 0)
 			(hide yes)
 			(effects
@@ -8062,7 +8062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 106.68 0)
 			(hide yes)
 			(effects
@@ -8142,7 +8142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 111.76 0)
 			(hide yes)
 			(effects
@@ -8222,7 +8222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 116.84 0)
 			(hide yes)
 			(effects
@@ -8302,7 +8302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 121.92 0)
 			(hide yes)
 			(effects
@@ -8382,7 +8382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "kids-timer:LED_0805_2012Metric_Ring"
 			(at 345.44 127 0)
 			(hide yes)
 			(effects
