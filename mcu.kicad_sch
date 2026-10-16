@@ -3785,13 +3785,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 187.96)
-			(xy 228.6 187.96)
-		)
-		(uuid "5f00a3f0-64c3-49a4-80a8-cbf889d7ca2b")
-	)
-	(wire
-		(pts
 			(xy 226.06 157.48)
 			(xy 227.33 157.48)
 		)
@@ -3838,6 +3831,20 @@
 			(xy 88.9 144.78)
 		)
 		(uuid "a8674aee-12de-49d6-a613-e9f77d2e2c2b")
+	)
+	(wire
+		(pts
+			(xy 226.06 187.96)
+			(xy 227.33 187.96)
+		)
+		(uuid "429725bb-d7eb-4c68-9932-204e5c18b1fc")
+	)
+	(wire
+		(pts
+			(xy 234.95 187.96)
+			(xy 237.49 187.96)
+		)
+		(uuid "41b5095e-4531-4569-b8c8-852f011871fb")
 	)
 	(label "XIN"
 		(at 172.72 165.1 180)
@@ -4254,17 +4261,6 @@
 		)
 		(uuid "76c66f4c-bd2b-4d11-8c0a-6931bd8890ce")
 	)
-	(global_label "WL_CLK"
-		(shape input)
-		(at 228.6 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e25663c-51ff-4512-8179-51a5c975c097")
-	)
 	(global_label "LED_CLK"
 		(shape input)
 		(at 237.49 157.48 0)
@@ -4297,6 +4293,17 @@
 			(justify left)
 		)
 		(uuid "3e265134-fd7c-48ac-82d4-01cbf1c0fb9c")
+	)
+	(global_label "WL_CLK"
+		(shape input)
+		(at 237.49 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54d07051-dffc-4a3e-a95b-26555594001b")
 	)
 	(symbol
 		(lib_id "MCU_RaspberryPi:RP2354A")
@@ -7724,6 +7731,75 @@
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 187.96 90)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3a13cc0-8fb2-4d74-9582-e90473eaf6b5")
+		(property "Reference" "R73"
+			(at 231.14 185.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 231.14 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 231.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 231.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
+					(reference "R73")
 					(unit 1)
 				)
 			)
