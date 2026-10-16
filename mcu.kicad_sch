@@ -5402,7 +5402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "12MHz 20pF"
 			(at 142.875 167.005 0)
 			(effects
 				(font
@@ -5420,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C9002.pdf"
 			(at 139.7 170.18 0)
 			(hide yes)
 			(effects
@@ -5438,7 +5438,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20625731"
+		(property "LCSC" "C9002"
 			(at 139.7 170.18 0)
 			(hide yes)
 			(effects
@@ -5447,7 +5447,7 @@
 				)
 			)
 		)
-		(property "MPN" "ABM8-272-T3"
+		(property "MPN" "X322512MSB4SI"
 			(at 139.7 170.18 0)
 			(hide yes)
 			(effects
@@ -5482,7 +5482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "33pF"
 			(at 136.525 180.34 0)
 			(effects
 				(font
@@ -5518,7 +5518,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1548"
+		(property "LCSC" "C1562"
 			(at 135.89 177.8 0)
 			(hide yes)
 			(effects
@@ -5535,7 +5535,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402CG330J500NT"
+			(at 135.89 177.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 143.51 177.8 0)
@@ -5553,7 +5562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "33pF"
 			(at 144.145 180.34 0)
 			(effects
 				(font
@@ -5589,7 +5598,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1548"
+		(property "LCSC" "C1562"
 			(at 143.51 177.8 0)
 			(hide yes)
 			(effects
@@ -5606,7 +5615,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "MPN" "0402CG330J500NT"
+			(at 143.51 177.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 166.37 175.26 90)
