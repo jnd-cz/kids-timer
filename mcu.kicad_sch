@@ -5908,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 153.67 149.86 0)
 			(hide yes)
 			(effects
@@ -5935,7 +5935,7 @@
 				)
 			)
 		)
-		(property "LCSC" "TBD"
+		(property "LCSC" "C21262539"
 			(at 153.67 149.86 0)
 			(hide yes)
 			(effects
@@ -7162,7 +7162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 152.4 116.84 0)
 			(hide yes)
 			(effects
@@ -7198,7 +7198,7 @@
 			)
 		)
 	
-		(property "LCSC" "TBD"
+		(property "LCSC" "C21262539"
 			(at 152.4 116.84 0)
 			(hide yes)
 			(effects

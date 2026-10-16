@@ -151,6 +151,93 @@
       )
     )
   )
+  (sheet
+    (at 30 140)
+    (size 50 30)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0))
+    (uuid "1cf887ec-5206-4670-8379-e6d03f301ae2")
+    (property "Sheetname" "Sensors & UI"
+      (at 30 139.365 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensors.kicad_sch"
+      (at 30 170.635 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kids-timer"
+        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "7"))
+      )
+    )
+  )
+  (sheet
+    (at 100 140)
+    (size 50 30)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0))
+    (uuid "da99495f-110d-4b97-85fc-05e6b72c5f12")
+    (property "Sheetname" "Audio"
+      (at 100 139.365 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch"
+      (at 100 170.635 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kids-timer"
+        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "8"))
+      )
+    )
+  )
+  (sheet
+    (at 170 140)
+    (size 50 30)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0))
+    (uuid "f1ea0de3-64be-44c5-98de-c9ec4531e0de")
+    (property "Sheetname" "Radio"
+      (at 170 139.365 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "radio.kicad_sch"
+      (at 170 170.635 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kids-timer"
+        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "9"))
+      )
+    )
+  )
   (sheet_instances
     (path "/"
       (page "1")
