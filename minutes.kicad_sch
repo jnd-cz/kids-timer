@@ -2764,6 +2764,50 @@
 		)
 		(uuid "2cb66118-5275-4b1e-99b5-4450938644bc")
 	)
+	(global_label "Net-(D160-K)"
+		(shape passive)
+		(at 340.36 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1387fcea-cf9b-473e-a6b7-7c530fa83bef")
+	)
+	(global_label "Net-(D161-K)"
+		(shape passive)
+		(at 340.36 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79f2e8db-a7fe-4393-90ea-bca6006bbb8e")
+	)
+	(global_label "Net-(D162-K)"
+		(shape passive)
+		(at 340.36 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0730ae3e-2ec5-446d-a166-8a1a09b34e0c")
+	)
+	(global_label "Net-(D163-K)"
+		(shape passive)
+		(at 340.36 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "582d1361-3b6f-4508-afe1-b5ac3ce8a98f")
+	)
 	(symbol
 		(lib_id "kids-timer:SM16206S")
 		(at 50.8 109.22 0)
@@ -2815,15 +2859,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C121618"
 			(at 50.8 109.22 0)
 			(hide yes)
@@ -2841,7 +2876,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 30.48 137.16 90)
@@ -2893,15 +2937,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C25890"
 			(at 30.48 137.16 0)
 			(hide yes)
@@ -2910,7 +2945,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 43.18 62.23 0)
@@ -2964,15 +3008,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C1525"
 			(at 43.18 62.23 0)
 			(hide yes)
@@ -2981,7 +3016,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 71.12 0)
@@ -3035,15 +3079,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D100")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 71.12 0)
 			(hide yes)
@@ -3061,7 +3096,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D100")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 76.2 0)
@@ -3115,15 +3159,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 76.2 0)
 			(hide yes)
@@ -3141,7 +3176,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 81.28 0)
@@ -3195,15 +3239,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D102")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 81.28 0)
 			(hide yes)
@@ -3221,7 +3256,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 86.36 0)
@@ -3275,15 +3319,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D103")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 86.36 0)
 			(hide yes)
@@ -3301,7 +3336,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 91.44 0)
@@ -3355,15 +3399,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D104")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 91.44 0)
 			(hide yes)
@@ -3381,7 +3416,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 96.52 0)
@@ -3435,15 +3479,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D105")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 96.52 0)
 			(hide yes)
@@ -3461,7 +3496,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 101.6 0)
@@ -3515,15 +3559,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D106")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 101.6 0)
 			(hide yes)
@@ -3541,7 +3576,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D106")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 106.68 0)
@@ -3595,15 +3639,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D107")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 106.68 0)
 			(hide yes)
@@ -3621,7 +3656,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D107")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 111.76 0)
@@ -3675,15 +3719,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D108")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 111.76 0)
 			(hide yes)
@@ -3701,7 +3736,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D108")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 116.84 0)
@@ -3755,15 +3799,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D109")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 116.84 0)
 			(hide yes)
@@ -3781,7 +3816,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D109")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 121.92 0)
@@ -3835,15 +3879,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D110")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 121.92 0)
 			(hide yes)
@@ -3861,7 +3896,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D110")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 127 0)
@@ -3915,15 +3959,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D111")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 127 0)
 			(hide yes)
@@ -3941,7 +3976,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D111")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 132.08 0)
@@ -3995,15 +4039,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D112")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 132.08 0)
 			(hide yes)
@@ -4021,7 +4056,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D112")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 137.16 0)
@@ -4075,15 +4119,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D113")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 137.16 0)
 			(hide yes)
@@ -4101,7 +4136,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D113")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 142.24 0)
@@ -4155,15 +4199,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D114")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 142.24 0)
 			(hide yes)
@@ -4181,7 +4216,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D114")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 71.12 147.32 0)
@@ -4235,15 +4279,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D115")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 71.12 147.32 0)
 			(hide yes)
@@ -4261,7 +4296,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "kids-timer:SM16206S")
 		(at 142.24 109.22 0)
@@ -4313,15 +4357,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C121618"
 			(at 142.24 109.22 0)
 			(hide yes)
@@ -4339,7 +4374,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 121.92 137.16 90)
@@ -4391,15 +4435,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C25890"
 			(at 121.92 137.16 0)
 			(hide yes)
@@ -4408,7 +4443,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 134.62 62.23 0)
@@ -4462,15 +4506,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C1525"
 			(at 134.62 62.23 0)
 			(hide yes)
@@ -4479,7 +4514,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 71.12 0)
@@ -4533,15 +4577,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D116")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 71.12 0)
 			(hide yes)
@@ -4559,7 +4594,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D116")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 76.2 0)
@@ -4613,15 +4657,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D117")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 76.2 0)
 			(hide yes)
@@ -4639,7 +4674,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D117")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 81.28 0)
@@ -4693,15 +4737,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D118")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 81.28 0)
 			(hide yes)
@@ -4719,7 +4754,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D118")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 86.36 0)
@@ -4773,15 +4817,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D119")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 86.36 0)
 			(hide yes)
@@ -4799,7 +4834,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D119")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 91.44 0)
@@ -4853,15 +4897,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D120")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 91.44 0)
 			(hide yes)
@@ -4879,7 +4914,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D120")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 96.52 0)
@@ -4933,15 +4977,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D121")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 96.52 0)
 			(hide yes)
@@ -4959,7 +4994,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D121")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 101.6 0)
@@ -5013,15 +5057,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D122")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 101.6 0)
 			(hide yes)
@@ -5039,7 +5074,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D122")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 106.68 0)
@@ -5093,15 +5137,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D123")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 106.68 0)
 			(hide yes)
@@ -5119,7 +5154,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D123")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 111.76 0)
@@ -5173,15 +5217,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D124")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 111.76 0)
 			(hide yes)
@@ -5199,7 +5234,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D124")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 116.84 0)
@@ -5253,15 +5297,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D125")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 116.84 0)
 			(hide yes)
@@ -5279,7 +5314,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D125")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 121.92 0)
@@ -5333,15 +5377,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D126")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 121.92 0)
 			(hide yes)
@@ -5359,7 +5394,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D126")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 127 0)
@@ -5413,15 +5457,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D127")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 127 0)
 			(hide yes)
@@ -5439,7 +5474,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D127")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 132.08 0)
@@ -5493,15 +5537,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D128")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 132.08 0)
 			(hide yes)
@@ -5519,7 +5554,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D128")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 137.16 0)
@@ -5573,15 +5617,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D129")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 137.16 0)
 			(hide yes)
@@ -5599,7 +5634,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D129")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 142.24 0)
@@ -5653,15 +5697,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D130")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 142.24 0)
 			(hide yes)
@@ -5679,7 +5714,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D130")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 147.32 0)
@@ -5733,15 +5777,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D131")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 162.56 147.32 0)
 			(hide yes)
@@ -5759,7 +5794,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D131")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "kids-timer:SM16206S")
 		(at 233.68 109.22 0)
@@ -5811,15 +5855,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C121618"
 			(at 233.68 109.22 0)
 			(hide yes)
@@ -5837,7 +5872,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 213.36 137.16 90)
@@ -5889,15 +5933,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C25890"
 			(at 213.36 137.16 0)
 			(hide yes)
@@ -5906,7 +5941,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 226.06 62.23 0)
@@ -5960,15 +6004,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C1525"
 			(at 226.06 62.23 0)
 			(hide yes)
@@ -5977,7 +6012,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 71.12 0)
@@ -6031,15 +6075,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D132")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 71.12 0)
 			(hide yes)
@@ -6057,7 +6092,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D132")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 76.2 0)
@@ -6111,15 +6155,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D133")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 76.2 0)
 			(hide yes)
@@ -6137,7 +6172,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D133")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 81.28 0)
@@ -6191,15 +6235,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D134")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 81.28 0)
 			(hide yes)
@@ -6217,7 +6252,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D134")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 86.36 0)
@@ -6271,15 +6315,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D135")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 86.36 0)
 			(hide yes)
@@ -6297,7 +6332,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D135")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 91.44 0)
@@ -6351,15 +6395,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D136")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 91.44 0)
 			(hide yes)
@@ -6377,7 +6412,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D136")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 96.52 0)
@@ -6431,15 +6475,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D137")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 96.52 0)
 			(hide yes)
@@ -6457,7 +6492,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D137")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 101.6 0)
@@ -6511,15 +6555,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D138")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 101.6 0)
 			(hide yes)
@@ -6537,7 +6572,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D138")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 106.68 0)
@@ -6591,15 +6635,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D139")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 106.68 0)
 			(hide yes)
@@ -6617,7 +6652,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D139")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 111.76 0)
@@ -6671,15 +6715,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D140")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 111.76 0)
 			(hide yes)
@@ -6697,7 +6732,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D140")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 116.84 0)
@@ -6751,15 +6795,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D141")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 116.84 0)
 			(hide yes)
@@ -6777,7 +6812,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D141")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 121.92 0)
@@ -6831,15 +6875,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D142")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 121.92 0)
 			(hide yes)
@@ -6857,7 +6892,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D142")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 127 0)
@@ -6911,15 +6955,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D143")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 127 0)
 			(hide yes)
@@ -6937,7 +6972,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D143")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 132.08 0)
@@ -6991,15 +7035,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D144")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 132.08 0)
 			(hide yes)
@@ -7017,7 +7052,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D144")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 137.16 0)
@@ -7071,15 +7115,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D145")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 137.16 0)
 			(hide yes)
@@ -7097,7 +7132,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D145")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 142.24 0)
@@ -7151,15 +7195,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D146")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 142.24 0)
 			(hide yes)
@@ -7177,7 +7212,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D146")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 254 147.32 0)
@@ -7231,15 +7275,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D147")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 254 147.32 0)
 			(hide yes)
@@ -7257,7 +7292,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D147")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "kids-timer:SM16206S")
 		(at 325.12 109.22 0)
@@ -7309,15 +7353,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C121618"
 			(at 325.12 109.22 0)
 			(hide yes)
@@ -7335,7 +7370,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 304.8 137.16 90)
@@ -7387,15 +7431,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C25890"
 			(at 304.8 137.16 0)
 			(hide yes)
@@ -7404,7 +7439,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 317.5 62.23 0)
@@ -7458,15 +7502,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C1525"
 			(at 317.5 62.23 0)
 			(hide yes)
@@ -7475,7 +7510,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 71.12 0)
@@ -7529,15 +7573,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D148")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 71.12 0)
 			(hide yes)
@@ -7555,7 +7590,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D148")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 76.2 0)
@@ -7609,15 +7653,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D149")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 76.2 0)
 			(hide yes)
@@ -7635,7 +7670,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D149")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 81.28 0)
@@ -7689,15 +7733,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D150")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 81.28 0)
 			(hide yes)
@@ -7715,7 +7750,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D150")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 86.36 0)
@@ -7769,15 +7813,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D151")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 86.36 0)
 			(hide yes)
@@ -7795,7 +7830,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D151")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 91.44 0)
@@ -7849,15 +7893,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D152")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 91.44 0)
 			(hide yes)
@@ -7875,7 +7910,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D152")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 96.52 0)
@@ -7929,15 +7973,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D153")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 96.52 0)
 			(hide yes)
@@ -7955,7 +7990,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D153")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 101.6 0)
@@ -8009,15 +8053,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D154")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 101.6 0)
 			(hide yes)
@@ -8035,7 +8070,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D154")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 106.68 0)
@@ -8089,15 +8133,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D155")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 106.68 0)
 			(hide yes)
@@ -8115,7 +8150,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D155")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 111.76 0)
@@ -8169,15 +8213,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D156")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 111.76 0)
 			(hide yes)
@@ -8195,7 +8230,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D156")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 116.84 0)
@@ -8249,15 +8293,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D157")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 116.84 0)
 			(hide yes)
@@ -8275,7 +8310,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D157")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 121.92 0)
@@ -8329,15 +8373,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D158")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 121.92 0)
 			(hide yes)
@@ -8355,7 +8390,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D158")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 127 0)
@@ -8409,15 +8453,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D159")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2297"
 			(at 345.44 127 0)
 			(hide yes)
@@ -8435,7 +8470,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "D159")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 132.08 0)
@@ -8444,7 +8488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba1dd438-ed83-4ce9-aa98-ee7e34490e57")
-		(property "Reference" "D160"
+		(property "Reference" "WIFI"
 			(at 344.17 128.905 0)
 			(effects
 				(font
@@ -8489,15 +8533,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D160")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2296"
 			(at 345.44 132.08 0)
 			(hide yes)
@@ -8515,7 +8550,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "WIFI")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 137.16 0)
@@ -8524,7 +8568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c367a459-9b60-4974-811b-bf31e591eb2b")
-		(property "Reference" "D161"
+		(property "Reference" "ALARM"
 			(at 344.17 133.985 0)
 			(effects
 				(font
@@ -8569,15 +8613,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D161")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2296"
 			(at 345.44 137.16 0)
 			(hide yes)
@@ -8595,7 +8630,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "ALARM")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 142.24 0)
@@ -8604,7 +8648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc3bc2dd-ceb1-45e2-a957-8b806c0d575b")
-		(property "Reference" "D162"
+		(property "Reference" "PAUSE"
 			(at 344.17 139.065 0)
 			(effects
 				(font
@@ -8649,15 +8693,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D162")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2296"
 			(at 345.44 142.24 0)
 			(hide yes)
@@ -8675,7 +8710,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "PAUSE")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 147.32 0)
@@ -8684,7 +8728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e06f5f9-c602-4858-a859-c6882c03c9cd")
-		(property "Reference" "D163"
+		(property "Reference" "BATT"
 			(at 344.17 144.145 0)
 			(effects
 				(font
@@ -8729,15 +8773,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "D163")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C2296"
 			(at 345.44 147.32 0)
 			(hide yes)
@@ -8755,7 +8790,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "BATT")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:VCC")
 		(at 50.8 58.42 0)
@@ -10029,15 +10073,6 @@
 				)
 			)
 		)
-		(instances
-			(project "kids-timer"
-				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	
 		(property "LCSC" "C45783"
 			(at 375.92 76.2 0)
 			(hide yes)
@@ -10046,7 +10081,16 @@
 					(size 1.27 1.27)
 				)
 			)
-		))
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:VCC")
 		(at 375.92 72.39 0)

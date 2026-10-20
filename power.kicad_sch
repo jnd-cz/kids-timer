@@ -8661,7 +8661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84776e76-838f-4959-9545-390d2348bbc3")
-		(property "Reference" "SW1"
+		(property "Reference" "POWER"
 			(at 256.54 106.68 0)
 			(effects
 				(font
@@ -8707,7 +8707,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/c3ebc7fc-3e98-43d6-9de4-2391fe41200a"
-					(reference "SW1")
+					(reference "POWER")
 					(unit 1)
 				)
 			)

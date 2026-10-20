@@ -4305,6 +4305,17 @@
 		)
 		(uuid "24c132a8-af5d-4173-9c0b-53c062fd20c0")
 	)
+	(global_label "Net-(R20-Pad1)"
+		(shape passive)
+		(at 156.21 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02e3ece4-f297-482e-bce3-1399564ff66f")
+	)
 	(symbol
 		(lib_id "MCU_RaspberryPi:RP2354A")
 		(at 200.66 149.86 0)
@@ -6050,7 +6061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e10b610-cbe0-46b9-9e43-84281d957e22")
-		(property "Reference" "SW2"
+		(property "Reference" "BOOT"
 			(at 151.13 148.59 0)
 			(effects
 				(font
@@ -6115,7 +6126,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
-					(reference "SW2")
+					(reference "BOOT")
 					(unit 1)
 				)
 			)
@@ -7235,7 +7246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17ac4524-79e7-42ab-ba99-c24a58fe5d2f")
-		(property "Reference" "SW3"
+		(property "Reference" "REBOOT"
 			(at 149.86 115.57 0)
 			(effects
 				(font
@@ -7300,7 +7311,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
-					(reference "SW3")
+					(reference "REBOOT")
 					(unit 1)
 				)
 			)
