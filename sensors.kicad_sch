@@ -1739,13 +1739,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 116.84)
-			(xy 76.2 116.84)
-		)
-		(uuid "801fa96d-b3b3-4975-8cf5-06f6de927642")
-	)
-	(wire
-		(pts
 			(xy 134.62 50.8)
 			(xy 132.08 50.8)
 		)
@@ -1813,6 +1806,13 @@
 			(xy 132.08 96.52)
 		)
 		(uuid "5db68b3d-5c9f-4327-ae13-818808350030")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.84)
+			(xy 76.2 116.84)
+		)
+		(uuid "e6f1b1ff-36b4-4b2c-998e-af2d31e01c12")
 	)
 	(global_label "I2C_SCL"
 		(shape input)
@@ -1913,17 +1913,6 @@
 		)
 		(uuid "8503acc4-5469-4806-b34b-84cc4b439cfb")
 	)
-	(global_label "ACC_INT2"
-		(shape input)
-		(at 76.2 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "875c46b7-6248-485d-8135-78b0bdafa988")
-	)
 	(global_label "BTN1"
 		(shape input)
 		(at 132.08 50.8 180)
@@ -2022,6 +2011,17 @@
 			(justify right)
 		)
 		(uuid "a2d56f01-edcc-462b-a487-d514094073e7")
+	)
+	(global_label "ACC_INT2"
+		(shape input)
+		(at 76.2 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "137876ff-556d-48d9-9faa-361b831e1cf0")
 	)
 	(symbol
 		(lib_id "kids-timer:VEML6030")

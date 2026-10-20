@@ -3659,13 +3659,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 129.54)
-			(xy 228.6 129.54)
-		)
-		(uuid "c722d6eb-a69c-41d8-8ad0-eff64c1e8719")
-	)
-	(wire
-		(pts
 			(xy 226.06 132.08)
 			(xy 228.6 132.08)
 		)
@@ -3845,6 +3838,13 @@
 			(xy 237.49 187.96)
 		)
 		(uuid "41b5095e-4531-4569-b8c8-852f011871fb")
+	)
+	(wire
+		(pts
+			(xy 226.06 129.54)
+			(xy 228.6 129.54)
+		)
+		(uuid "f9ef4e98-6ef2-4e8e-82d1-5d748cb5231d")
 	)
 	(label "XIN"
 		(at 172.72 165.1 180)
@@ -4062,17 +4062,6 @@
 			(justify left)
 		)
 		(uuid "68a5f611-aa74-4f9e-9370-c8dbb94e6634")
-	)
-	(global_label "ACC_INT2"
-		(shape input)
-		(at 228.6 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9863c51-d9f2-4f65-bf69-06684f28cb8b")
 	)
 	(global_label "ALS_INT"
 		(shape input)
@@ -4304,6 +4293,17 @@
 			(justify left)
 		)
 		(uuid "54d07051-dffc-4a3e-a95b-26555594001b")
+	)
+	(global_label "ACC_INT2"
+		(shape input)
+		(at 228.6 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24c132a8-af5d-4173-9c0b-53c062fd20c0")
 	)
 	(symbol
 		(lib_id "MCU_RaspberryPi:RP2354A")
