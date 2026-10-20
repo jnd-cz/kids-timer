@@ -8808,7 +8808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cd1df40-91f5-4054-82ae-8216afd5780f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR401"
 			(at 50.8 62.23 0)
 			(hide yes)
 			(effects
@@ -8855,7 +8855,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR01")
+					(reference "#PWR401")
 					(unit 1)
 				)
 			)
@@ -8869,7 +8869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d8e949e-aafa-4ac8-8221-73b62c070f5d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR402"
 			(at 142.24 62.23 0)
 			(hide yes)
 			(effects
@@ -8916,7 +8916,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR02")
+					(reference "#PWR402")
 					(unit 1)
 				)
 			)
@@ -8930,7 +8930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1934ae8-490c-4674-9968-2e4e07b369c6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR403"
 			(at 233.68 62.23 0)
 			(hide yes)
 			(effects
@@ -8977,7 +8977,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR03")
+					(reference "#PWR403")
 					(unit 1)
 				)
 			)
@@ -8991,7 +8991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "290d6116-1c72-4f05-8b91-b562ae6782e7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR404"
 			(at 325.12 62.23 0)
 			(hide yes)
 			(effects
@@ -9038,7 +9038,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR04")
+					(reference "#PWR404")
 					(unit 1)
 				)
 			)
@@ -9052,7 +9052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7db3d527-4c95-4597-b221-d2fcf8315c24")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR405"
 			(at 73.66 74.93 0)
 			(hide yes)
 			(effects
@@ -9099,7 +9099,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR05")
+					(reference "#PWR405")
 					(unit 1)
 				)
 			)
@@ -9113,7 +9113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3900ae3-11f2-43f6-9eff-6083e5ce5925")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR406"
 			(at 165.1 74.93 0)
 			(hide yes)
 			(effects
@@ -9160,7 +9160,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR06")
+					(reference "#PWR406")
 					(unit 1)
 				)
 			)
@@ -9174,7 +9174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c57e48a-15d7-40ab-ba26-98148ec51de0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR407"
 			(at 256.54 74.93 0)
 			(hide yes)
 			(effects
@@ -9221,7 +9221,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR07")
+					(reference "#PWR407")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab014df1-134b-4c9d-a551-b4ee38587223")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR408"
 			(at 347.98 74.93 0)
 			(hide yes)
 			(effects
@@ -9282,7 +9282,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR08")
+					(reference "#PWR408")
 					(unit 1)
 				)
 			)
@@ -9296,7 +9296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e3b5815-6112-4391-a7ac-abe336904aae")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR409"
 			(at 43.18 72.39 0)
 			(hide yes)
 			(effects
@@ -9343,7 +9343,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR09")
+					(reference "#PWR409")
 					(unit 1)
 				)
 			)
@@ -9357,7 +9357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b5c0851-537f-4b46-b27d-18a369a81b3e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR410"
 			(at 134.62 72.39 0)
 			(hide yes)
 			(effects
@@ -9404,7 +9404,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR010")
+					(reference "#PWR410")
 					(unit 1)
 				)
 			)
@@ -9418,7 +9418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25530da5-34cb-4d9c-9475-285f2e3864fe")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR411"
 			(at 226.06 72.39 0)
 			(hide yes)
 			(effects
@@ -9465,7 +9465,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR011")
+					(reference "#PWR411")
 					(unit 1)
 				)
 			)
@@ -9479,7 +9479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52bd9a1e-47d1-4e14-bcfc-d128d2cdd5a2")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR412"
 			(at 317.5 72.39 0)
 			(hide yes)
 			(effects
@@ -9526,7 +9526,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR012")
+					(reference "#PWR412")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c74ef77-2d60-4312-bf9c-d5c2c2b1d486")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR413"
 			(at 50.8 158.75 0)
 			(hide yes)
 			(effects
@@ -9587,7 +9587,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR013")
+					(reference "#PWR413")
 					(unit 1)
 				)
 			)
@@ -9601,7 +9601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb2524d6-71e0-48a1-8b45-96b3a4d05b50")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR414"
 			(at 142.24 158.75 0)
 			(hide yes)
 			(effects
@@ -9648,7 +9648,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR014")
+					(reference "#PWR414")
 					(unit 1)
 				)
 			)
@@ -9662,7 +9662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "789b0e1e-bd53-402d-b2e5-687c8f8e13a6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR415"
 			(at 233.68 158.75 0)
 			(hide yes)
 			(effects
@@ -9709,7 +9709,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR015")
+					(reference "#PWR415")
 					(unit 1)
 				)
 			)
@@ -9723,7 +9723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0582ae7f-8ad5-44cb-8064-dc69f9320f72")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR416"
 			(at 325.12 158.75 0)
 			(hide yes)
 			(effects
@@ -9770,7 +9770,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR016")
+					(reference "#PWR416")
 					(unit 1)
 				)
 			)
@@ -9784,7 +9784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5f20aa7-5363-4ec1-bba7-4ead28e40252")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR417"
 			(at 20.32 137.16 0)
 			(hide yes)
 			(effects
@@ -9831,7 +9831,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR017")
+					(reference "#PWR417")
 					(unit 1)
 				)
 			)
@@ -9845,7 +9845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30c3c0fe-e2f1-41f2-9d6f-2d4fbb0c0a78")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR418"
 			(at 111.76 137.16 0)
 			(hide yes)
 			(effects
@@ -9892,7 +9892,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR018")
+					(reference "#PWR418")
 					(unit 1)
 				)
 			)
@@ -9906,7 +9906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4cbdc9f-2b70-4e35-8103-429bd3db0866")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR419"
 			(at 203.2 137.16 0)
 			(hide yes)
 			(effects
@@ -9953,7 +9953,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR019")
+					(reference "#PWR419")
 					(unit 1)
 				)
 			)
@@ -9967,7 +9967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "250318e6-6718-4b01-b279-a03c47bcd47f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR420"
 			(at 294.64 137.16 0)
 			(hide yes)
 			(effects
@@ -10014,7 +10014,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR020")
+					(reference "#PWR420")
 					(unit 1)
 				)
 			)
@@ -10099,7 +10099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db4abbe9-6670-4e64-a071-ce3f3f46cdff")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR421"
 			(at 375.92 76.2 0)
 			(hide yes)
 			(effects
@@ -10146,7 +10146,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR021")
+					(reference "#PWR421")
 					(unit 1)
 				)
 			)
@@ -10160,7 +10160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39b65291-f50f-439f-8144-371318023dfc")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR422"
 			(at 375.92 86.36 0)
 			(hide yes)
 			(effects
@@ -10207,7 +10207,7 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "#PWR022")
+					(reference "#PWR422")
 					(unit 1)
 				)
 			)
