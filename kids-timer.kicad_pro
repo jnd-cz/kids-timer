@@ -745,13 +745,50 @@
       {
         "filename": "kids-timer.kicad_sch",
         "name": "kids-timer",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "7277690e-0f02-403c-a06b-b6cc3ef1ff96"
       }
     ],
     "used_designators": "+1,\\-1,ALARM1,BATT1,BOOT1,MODE1,PAUSE1,POWER1,REBOOT1,RESET1,START1,WIFI1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "7277690e-0f02-403c-a06b-b6cc3ef1ff96",
+      "kids-timer"
+    ],
+    [
+      "c3ebc7fc-3e98-43d6-9de4-2391fe41200a",
+      "Power"
+    ],
+    [
+      "ad4ac473-fcc4-470e-810d-30123351ac7b",
+      "MCU"
+    ],
+    [
+      "2485d086-a5dc-4870-af6c-da1125a7707d",
+      "Minutes ring"
+    ],
+    [
+      "9715adb9-8618-45e5-8594-669b2dbadc35",
+      "Seconds ring"
+    ],
+    [
+      "76a4ef11-d399-4323-ba8d-1155db334534",
+      "Display"
+    ],
+    [
+      "1cf887ec-5206-4670-8379-e6d03f301ae2",
+      "Sensors & UI"
+    ],
+    [
+      "da99495f-110d-4b97-85fc-05e6b72c5f12",
+      "Audio"
+    ],
+    [
+      "f1ea0de3-64be-44c5-98de-c9ec4531e0de",
+      "Radio"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

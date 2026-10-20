@@ -1,247 +1,382 @@
 (kicad_sch
-	(version 20250610)
-	(generator "konnect")
+	(version 20260306)
+	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "7277690e-0f02-403c-a06b-b6cc3ef1ff96")
 	(paper "A4")
-	(lib_symbols
+	(lib_symbols)
+	(sheet
+		(at 30 140)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1cf887ec-5206-4670-8379-e6d03f301ae2")
+		(property "Sheetname" "Sensors & UI"
+			(at 30 139.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 30 170.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "7")
+				)
+			)
+		)
 	)
-  (sheet
-    (at 30 40)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "c3ebc7fc-3e98-43d6-9de4-2391fe41200a")
-    (property "Sheetname" "Power"
-      (at 30 39.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch"
-      (at 30 70.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "2"))
-      )
-    )
-  )
-  (sheet
-    (at 100 40)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "ad4ac473-fcc4-470e-810d-30123351ac7b")
-    (property "Sheetname" "MCU"
-      (at 100 39.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch"
-      (at 100 70.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "3"))
-      )
-    )
-  )
-  (sheet
-    (at 30 90)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "2485d086-a5dc-4870-af6c-da1125a7707d")
-    (property "Sheetname" "Minutes ring"
-      (at 30 89.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "minutes.kicad_sch"
-      (at 30 120.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "4"))
-      )
-    )
-  )
-  (sheet
-    (at 100 90)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "9715adb9-8618-45e5-8594-669b2dbadc35")
-    (property "Sheetname" "Seconds ring"
-      (at 100 89.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "seconds.kicad_sch"
-      (at 100 120.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "5"))
-      )
-    )
-  )
-  (sheet
-    (at 170 90)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "76a4ef11-d399-4323-ba8d-1155db334534")
-    (property "Sheetname" "Display"
-      (at 170 89.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "display.kicad_sch"
-      (at 170 120.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "6"))
-      )
-    )
-  )
-  (sheet
-    (at 30 140)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "1cf887ec-5206-4670-8379-e6d03f301ae2")
-    (property "Sheetname" "Sensors & UI"
-      (at 30 139.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "sensors.kicad_sch"
-      (at 30 170.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "7"))
-      )
-    )
-  )
-  (sheet
-    (at 100 140)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "da99495f-110d-4b97-85fc-05e6b72c5f12")
-    (property "Sheetname" "Audio"
-      (at 100 139.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "audio.kicad_sch"
-      (at 100 170.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "8"))
-      )
-    )
-  )
-  (sheet
-    (at 170 140)
-    (size 50 30)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (fields_autoplaced yes)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0))
-    (uuid "f1ea0de3-64be-44c5-98de-c9ec4531e0de")
-    (property "Sheetname" "Radio"
-      (at 170 139.365 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "radio.kicad_sch"
-      (at 170 170.635 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "kids-timer"
-        (path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96" (page "9"))
-      )
-    )
-  )
-  (sheet_instances
-    (path "/"
-      (page "1")
-    )
-  )
-  (embedded_fonts no)
+	(sheet
+		(at 30 90)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2485d086-a5dc-4870-af6c-da1125a7707d")
+		(property "Sheetname" "Minutes ring"
+			(at 30 89.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "minutes.kicad_sch"
+			(at 30 120.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170 90)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76a4ef11-d399-4323-ba8d-1155db334534")
+		(property "Sheetname" "Display"
+			(at 170 89.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 170 120.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100 90)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9715adb9-8618-45e5-8594-669b2dbadc35")
+		(property "Sheetname" "Seconds ring"
+			(at 100 89.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "seconds.kicad_sch"
+			(at 100 120.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100 40)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ad4ac473-fcc4-470e-810d-30123351ac7b")
+		(property "Sheetname" "MCU"
+			(at 100 39.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 100 70.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 40)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c3ebc7fc-3e98-43d6-9de4-2391fe41200a")
+		(property "Sheetname" "Power"
+			(at 30 39.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 30 70.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100 140)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "da99495f-110d-4b97-85fc-05e6b72c5f12")
+		(property "Sheetname" "Audio"
+			(at 100 139.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 100 170.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170 140)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1ea0de3-64be-44c5-98de-c9ec4531e0de")
+		(property "Sheetname" "Radio"
+			(at 170 139.365 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 170 170.635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kids-timer"
+				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
