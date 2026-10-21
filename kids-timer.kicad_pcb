@@ -7341,6 +7341,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8165,12 +8166,7 @@
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/5f4da716-978b-4085-9e13-d3bd704a6a7c")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -6.150001 -6.15)
@@ -8812,7 +8808,7 @@
 				)
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -4.35 -4.35)
@@ -10775,6 +10771,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -12414,6 +12411,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13238,6 +13236,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19249,12 +19248,7 @@
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/a61905d2-4693-416a-bea0-836a45b21090")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -6.150001 -6.15)
@@ -54879,12 +54873,7 @@
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/a0af1a81-c9d6-4780-8c46-573a10ea0893")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -54991,12 +54980,7 @@
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/b9cdcd98-87d4-4546-bad9-579e397ea249")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -55103,12 +55087,7 @@
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/e282242e-413d-44b7-897d-8e018ba02f09")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -55215,12 +55194,7 @@
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/7b94b7ec-8cb8-4b88-b3d9-4eac3d780c95")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -55327,12 +55301,7 @@
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/f1a7ba96-57ee-4aae-b5e8-2414e27e231d")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
