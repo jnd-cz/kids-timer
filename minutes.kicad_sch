@@ -5259,7 +5259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e06f5f9-c602-4858-a859-c6882c03c9cd")
-		(property "Reference" "BATT1"
+		(property "Reference" "D163"
 			(at 344.17 144.145 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5345,12 +5345,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "BATT1")
+					(reference "D163")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "BATT"
+			(at 345.44 147.32 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 118.11 137.16 270)
@@ -9892,7 +9901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba1dd438-ed83-4ce9-aa98-ee7e34490e57")
-		(property "Reference" "WIFI1"
+		(property "Reference" "D160"
 			(at 344.17 128.905 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,12 +9987,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "WIFI1")
+					(reference "D160")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "WIFI"
+			(at 345.44 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 162.56 121.92 0)
@@ -10304,7 +10322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c367a459-9b60-4974-811b-bf31e591eb2b")
-		(property "Reference" "ALARM1"
+		(property "Reference" "D161"
 			(at 344.17 133.985 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10390,12 +10408,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "ALARM1")
+					(reference "D161")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "ALARM"
+			(at 345.44 137.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:LED_Small")
 		(at 345.44 76.2 0)
@@ -10510,7 +10537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc3bc2dd-ceb1-45e2-a957-8b806c0d575b")
-		(property "Reference" "PAUSE1"
+		(property "Reference" "D162"
 			(at 344.17 139.065 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10596,12 +10623,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/2485d086-a5dc-4870-af6c-da1125a7707d"
-					(reference "PAUSE1")
+					(reference "D162")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "PAUSE"
+			(at 345.44 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 226.06 62.23 0)

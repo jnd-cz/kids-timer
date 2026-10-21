@@ -2302,7 +2302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0539b21a-094b-4de1-9429-afb659b67d1d")
-		(property "Reference" "+1"
+		(property "Reference" "SW7"
 			(at 140.97 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,12 +2387,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "+1")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "+"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 50.8 63.5 270)
@@ -3503,7 +3512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6276be07-d4d6-4aa4-9583-0080db83f42c")
-		(property "Reference" "-1"
+		(property "Reference" "SW5"
 			(at 140.97 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,12 +3597,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "-1")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "-"
+			(at 139.7 63.5 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 139.7 76.2 0)
@@ -3605,7 +3623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6566f37b-3b73-4061-b997-d854523176ee")
-		(property "Reference" "MODE1"
+		(property "Reference" "SW6"
 			(at 140.97 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,12 +3708,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "MODE1")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "MODE"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 60.96 50.8 0)
@@ -3953,7 +3980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d3ed4cd-43c6-41a0-98ed-678db01f1731")
-		(property "Reference" "RESET1"
+		(property "Reference" "SW8"
 			(at 140.97 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,12 +4065,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "RESET1")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "RESET"
+			(at 139.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 157.48 133.35 0)
@@ -4808,7 +4844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "badc4744-8ae6-43a6-be06-ff264ddb352b")
-		(property "Reference" "START1"
+		(property "Reference" "SW4"
 			(at 140.97 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,12 +4929,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/1cf887ec-5206-4670-8379-e6d03f301ae2"
-					(reference "START1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "START"
+			(at 139.7 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 83.82 106.68 0)

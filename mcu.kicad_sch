@@ -5202,7 +5202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17ac4524-79e7-42ab-ba99-c24a58fe5d2f")
-		(property "Reference" "REBOOT1"
+		(property "Reference" "SW3"
 			(at 149.86 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,12 +5287,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
-					(reference "REBOOT1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "REBOOT"
+			(at 152.4 116.84 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 91.44 134.62 270)
@@ -6863,7 +6872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e10b610-cbe0-46b9-9e43-84281d957e22")
-		(property "Reference" "BOOT1"
+		(property "Reference" "SW2"
 			(at 151.13 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6948,12 +6957,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/ad4ac473-fcc4-470e-810d-30123351ac7b"
-					(reference "BOOT1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "BOOT"
+			(at 153.67 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 165.1 96.52 0)

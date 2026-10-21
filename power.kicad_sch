@@ -10519,7 +10519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84776e76-838f-4959-9545-390d2348bbc3")
-		(property "Reference" "POWER1"
+		(property "Reference" "SW1"
 			(at 256.54 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10606,12 +10606,21 @@
 		(instances
 			(project "kids-timer"
 				(path "/7277690e-0f02-403c-a06b-b6cc3ef1ff96/c3ebc7fc-3e98-43d6-9de4-2391fe41200a"
-					(reference "POWER1")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
 		)
-	)
+	
+		(property "Label" "POWER"
+			(at 256.54 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 215.9 96.52 0)
