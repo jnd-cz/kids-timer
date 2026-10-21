@@ -1343,16 +1343,23 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4044c5a-e338-4b51-af17-b25149cf6c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/da99495f-110d-4b97-85fc-05e6b72c5f12/41c41b16-dc41-4b4d-9904-90967f00dd82")
 		(sheetname "/Audio/")
 		(sheetfile "audio.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.06 -3.31)
@@ -2370,6 +2377,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788e1338-e4bd-44d2-8a43-e449927c4d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c3ebc7fc-3e98-43d6-9de4-2391fe41200a/84776e76-838f-4959-9545-390d2348bbc3")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
@@ -3151,16 +3171,23 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7b6f6b6-6bf8-47c7-b994-b1a83d7a90e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c3ebc7fc-3e98-43d6-9de4-2391fe41200a/01cfe74a-7abc-4d44-a658-2d4e511e650d")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "6" "1" "3" "4" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.91 -1.56)
@@ -5277,17 +5304,22 @@
 				)
 			)
 		)
-		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/53db9494-4453-4b61-9242-52a5831a13de")
-		(sheetname "/Minutes ring/")
-		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7267e50f-0737-4083-ae88-3e3a64fe48d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/53db9494-4453-4b61-9242-52a5831a13de")
+		(sheetname "/Minutes ring/")
+		(sheetfile "minutes.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.060001 4.46)
@@ -8928,17 +8960,22 @@
 				)
 			)
 		)
-		(path "/76a4ef11-d399-4323-ba8d-1155db334534/3c16ff9c-eec1-469f-934b-681205a7c46c")
-		(sheetname "/Display/")
-		(sheetfile "display.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b270fb06-5dae-4f70-9d14-389a31cb3245")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/76a4ef11-d399-4323-ba8d-1155db334534/3c16ff9c-eec1-469f-934b-681205a7c46c")
+		(sheetname "/Display/")
+		(sheetfile "display.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.060001 -4.46)
@@ -10101,17 +10138,22 @@
 				)
 			)
 		)
-		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/c93939d4-72ea-447e-a2f3-ead7d8b6f282")
-		(sheetname "/Seconds ring/")
-		(sheetfile "seconds.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03441cc6-e629-470c-bd0c-d42a1f1a5f97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/c93939d4-72ea-447e-a2f3-ead7d8b6f282")
+		(sheetname "/Seconds ring/")
+		(sheetfile "seconds.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.060001 -4.46)
@@ -11413,17 +11455,22 @@
 				)
 			)
 		)
-		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/61316c63-9436-4850-8534-8116d2e08668")
-		(sheetname "/Minutes ring/")
-		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dd1fbf4-f562-44b2-9196-4f1ff14c3ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/61316c63-9436-4850-8534-8116d2e08668")
+		(sheetname "/Minutes ring/")
+		(sheetfile "minutes.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.06 4.46)
@@ -15097,17 +15144,22 @@
 				)
 			)
 		)
-		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/e2fb65fa-4c4e-4c23-b67b-b0b90234a944")
-		(sheetname "/Seconds ring/")
-		(sheetfile "seconds.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2795a7a1-aa62-4b14-b1e0-299d82dc2f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/e2fb65fa-4c4e-4c23-b67b-b0b90234a944")
+		(sheetname "/Seconds ring/")
+		(sheetfile "seconds.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.060001 4.46)
@@ -20678,15 +20730,22 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbab187b-0ca8-4620-abc4-2fcee875f6de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/2792ac9f-26be-4c10-b32b-89a3e0171fb0")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "2" "4" "6" "1" "3")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.3 -0.95)
@@ -22140,17 +22199,22 @@
 				)
 			)
 		)
-		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/a28f4949-b75c-4cab-9328-a10daa13f951")
-		(sheetname "/Minutes ring/")
-		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "993d6e11-c124-442d-bbe9-5b1f51aad154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/a28f4949-b75c-4cab-9328-a10daa13f951")
+		(sheetname "/Minutes ring/")
+		(sheetfile "minutes.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.06 -4.460001)
@@ -25278,16 +25342,23 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "675bf219-5905-4516-b287-521e9ad39f86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c3ebc7fc-3e98-43d6-9de4-2391fe41200a/93fef50f-1de9-41f2-b4c6-8c1d3491170a")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.06 -3.31)
@@ -29980,17 +30051,22 @@
 				)
 			)
 		)
-		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/dfed37f0-1cd8-40e7-a827-ebdb3355462d")
-		(sheetname "/Seconds ring/")
-		(sheetfile "seconds.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "873bccf1-60d3-4c01-b804-74cbc2f467c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/dfed37f0-1cd8-40e7-a827-ebdb3355462d")
+		(sheetname "/Seconds ring/")
+		(sheetfile "seconds.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.06 -4.46)
@@ -32249,15 +32325,22 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aba86fde-c504-4761-987f-54767b9efcc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/dfa9fe53-c04e-4cbc-883e-c2a8493e1291")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "3" "2" "9" "6" "8" "10" "7" "12" "11" "5")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.1 -1.1)
@@ -37070,17 +37153,22 @@
 				)
 			)
 		)
-		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/dfb593c8-0761-4201-a1bf-90321e13bedc")
-		(sheetname "/Minutes ring/")
-		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b5f578c-3e13-4761-bf4f-f87502872701")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/dfb593c8-0761-4201-a1bf-90321e13bedc")
+		(sheetname "/Minutes ring/")
+		(sheetfile "minutes.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.06 4.46)
@@ -39265,21 +39353,23 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "139873f1-4b42-48c7-9cdf-ea1ad7c569c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*QFN*7x7mm?P0.4mm?EP3.4x3.4mm*")
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/5ca083a7-be78-4edf-83f3-e97bb8daa0c8")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "26" "51" "52" "60" "56" "57" "59" "58" "55" "21" "22" "24" "25"
-					"46" "53" "44" "54" "1" "11" "45" "38" "30" "20" "47" "61" "49" "48"
-					"50" "6" "39" "23" "2" "3" "4" "5" "7" "8" "9" "10" "12" "13" "14" "15"
-					"16" "17" "18" "19" "27" "28" "29" "31" "32" "33" "34" "35" "36" "37"
-					"40" "41" "42" "43"
-				)
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.61 -3.16)
@@ -43392,17 +43482,22 @@
 				)
 			)
 		)
-		(path "/76a4ef11-d399-4323-ba8d-1155db334534/6b6bce2e-a3f0-45d7-b933-b7919d4d6d7e")
-		(sheetname "/Display/")
-		(sheetfile "display.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20464239-a264-476a-981d-47d2ab60b223")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/76a4ef11-d399-4323-ba8d-1155db334534/6b6bce2e-a3f0-45d7-b933-b7919d4d6d7e")
+		(sheetname "/Display/")
+		(sheetfile "display.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.060001 -4.46)
@@ -53589,17 +53684,22 @@
 				)
 			)
 		)
-		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/efd7f5d0-9583-4e87-bf4a-127f717da9b7")
-		(sheetname "/Seconds ring/")
-		(sheetfile "seconds.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "21" "23" "22" "24" "1" "5" "6" "7" "8" "9" "10" "11"
-					"12" "13" "14" "15" "16" "17" "18" "19" "20"
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39e3814d-a95e-4ed3-bab0-c3e7f74a23b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
+		(path "/9715adb9-8618-45e5-8594-669b2dbadc35/efd7f5d0-9583-4e87-bf4a-127f717da9b7")
+		(sheetname "/Seconds ring/")
+		(sheetfile "seconds.kicad_sch")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.06 4.459998)
