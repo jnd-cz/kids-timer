@@ -423,7 +423,7 @@
 		(uuid "02850da8-8aa2-4c30-93bb-946a9facff09")
 		(at 148.497 72 -150)
 		(property "Reference" "D210"
-			(at -1.181362 2.046179 -150)
+			(at -1.181362 2.046179 210)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c38a27ef-6941-4da9-9ad1-64417c519d76")
@@ -2064,7 +2064,7 @@
 		(layer "F.Cu")
 		(uuid "0b432c14-0c94-4a74-a450-f3be653ead84")
 		(at 116.102 67.33 180)
-		(property "Reference" "WIFI1"
+		(property "Reference" "D160"
 			(at 3.802 -0.07 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -2141,12 +2141,6 @@
 		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/ba1dd438-ed83-4ce9-aa98-ee7e34490e57")
 		(sheetname "/Minutes ring/")
 		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -2277,7 +2271,7 @@
 		(layer "F.Cu")
 		(uuid "0cf4f1e1-1ec2-4ddc-b5a3-25e7e2f81282")
 		(at 170.5 100 90)
-		(property "Reference" "POWER1"
+		(property "Reference" "SW1"
 			(at 0 -3.13 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -2353,12 +2347,6 @@
 		(path "/c3ebc7fc-3e98-43d6-9de4-2391fe41200a/84776e76-838f-4959-9545-390d2348bbc3")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center -2.25 -2.75)
@@ -2665,7 +2653,7 @@
 		(uuid "0dc1c7e9-6fa1-44fa-8fc2-9caa0b8a9b25")
 		(at 145.305 67.084 -144)
 		(property "Reference" "D209"
-			(at -1.443627 1.986982 -144)
+			(at -1.443627 1.986982 216)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ee640ef9-7cb3-49d5-aa57-83c35d7f9e4d")
@@ -3431,7 +3419,7 @@
 		(uuid "11146863-9c8a-44f0-875a-8bad735006ce")
 		(at 89.812 147.929 -102)
 		(property "Reference" "D128"
-			(at 0.41136 1.935296 -102)
+			(at 0.41136 1.935296 258)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f9d2e214-5cd5-4295-9f6d-43f93613d96a")
@@ -4701,7 +4689,7 @@
 		(layer "F.Cu")
 		(uuid "14b1e5fa-a378-4b13-b472-1aeac527aa56")
 		(at 112 169)
-		(property "Reference" "START1"
+		(property "Reference" "SW4"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4777,12 +4765,6 @@
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/badc4744-8ae6-43a6-be06-ff264ddb352b")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.900001 -1.15)
@@ -5184,7 +5166,7 @@
 		(uuid "15f388a4-7097-409b-9cdd-7afb56f34425")
 		(at 71.8481 125.8363 -45)
 		(property "Reference" "U11"
-			(at -4.443742 -4.658561 -45)
+			(at -4.443742 -4.658561 315)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4d790e9a-f12b-4048-9fe7-3b3e02a79415")
@@ -5880,7 +5862,7 @@
 		(uuid "160b1e91-2abf-456d-a7fc-1ab927265c27")
 		(at 75.5 142.435 -120)
 		(property "Reference" "D125"
-			(at 1.181362 2.046179 -120)
+			(at 1.181362 2.046179 240)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "39ac0f6d-07a3-435d-a71c-e6fbb2e513ea")
@@ -6562,7 +6544,7 @@
 		(uuid "1b13c521-9b1d-4319-bb8a-1ae6a9a98039")
 		(at 105.122 148.732 -84)
 		(property "Reference" "D131"
-			(at -0.190284 1.810432 -84)
+			(at -0.190284 1.810432 276)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e3933b0a-7b57-4291-9e05-4598c8131c78")
@@ -7615,7 +7597,7 @@
 		(uuid "1f463cc1-fb3f-4b1f-876d-6395fde91191")
 		(at 58.384 62.529 -42)
 		(property "Reference" "D252"
-			(at -1.692985 -1.880251 -42)
+			(at -1.692985 -1.880251 318)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ba3dffed-1228-41dd-a903-de0e617d044e")
@@ -8117,7 +8099,7 @@
 		(uuid "2041a269-4052-4862-9c85-60bea4ca3697")
 		(at 60.358 128.801 -144)
 		(property "Reference" "D121"
-			(at -1.443628 1.986983 -144)
+			(at -1.443628 1.986983 216)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4cdf26d6-7a90-4430-bab2-18f41e37a878")
@@ -11977,7 +11959,7 @@
 		(uuid "367a6312-65e7-4ec5-bf2e-70b45e9994a8")
 		(at 82.695 46.741 -72)
 		(property "Reference" "D257"
-			(at -0.655936 2.018762 -72)
+			(at -0.655936 2.018762 288)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "daebbd1f-b8e4-46c1-bf90-177a3bbdf4aa")
@@ -12335,7 +12317,7 @@
 		(uuid "37be8a8c-c837-4450-8b74-bc8eaaf73e41")
 		(at 137.471 58.384 -132)
 		(property "Reference" "D207"
-			(at 1.692985 1.880251 -132)
+			(at 1.692985 1.880251 228)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "62070276-ee5c-4cce-8a80-0e2a89ac8410")
@@ -14458,7 +14440,7 @@
 		(uuid "41fb5a79-5bd5-4b96-91a7-9c177ae5ef31")
 		(at 44.307 94.146 -6)
 		(property "Reference" "D246"
-			(at -0.190284 -1.810432 -6)
+			(at -0.190284 -1.810432 354)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "23a00caa-cfa0-4b7b-a66b-45f3e582ce3b")
@@ -14637,7 +14619,7 @@
 		(uuid "4331cb0b-d1d9-483b-aa0c-4e61096ac281")
 		(at 149.497 50.503 -45)
 		(property "Reference" "U14"
-			(at -5.798276 -2.83267 -45)
+			(at -5.798276 -2.83267 315)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "242b47fd-9994-47f4-8fd6-e880b02dcf94")
@@ -15170,7 +15152,7 @@
 		(layer "F.Cu")
 		(uuid "43b26916-5f6f-4ebd-8ba6-745961a73849")
 		(at 137 169)
-		(property "Reference" "MODE1"
+		(property "Reference" "SW6"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -15246,12 +15228,6 @@
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/6566f37b-3b73-4061-b997-d854523176ee")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.900001 -1.15)
@@ -15517,7 +15493,7 @@
 		(uuid "46047fe9-5bb5-476c-99a8-2bea27efe5fd")
 		(at 63.586 132.787 -138)
 		(property "Reference" "D122"
-			(at -1.692985 1.880251 -138)
+			(at -1.692985 1.880251 222)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "52102a94-c5c4-4349-bca3-22ce8f44a917")
@@ -16080,7 +16056,7 @@
 		(uuid "47e7444c-1b66-4f66-995c-00da416c4f40")
 		(at 94.878 148.732 -96)
 		(property "Reference" "D129"
-			(at 0.190284 1.810432 -96)
+			(at 0.190284 1.810432 264)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ef13a486-dae7-4f23-9ec5-8e5b8a55c7ce")
@@ -16272,7 +16248,7 @@
 		(uuid "4964ba6a-0417-4e4d-9a2f-c60026b1099d")
 		(at 139.642 128.801 -36)
 		(property "Reference" "D139"
-			(at -1.443628 -1.986983 -36)
+			(at -1.443628 -1.986983 324)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6c772e30-477c-4d98-8a69-6184c5debefc")
@@ -16464,7 +16440,7 @@
 		(uuid "4b41a9bc-ea96-4d84-885d-42f668a01a42")
 		(at 57.565 124.5 -150)
 		(property "Reference" "D120"
-			(at -1.181362 2.046179 -150)
+			(at -1.181362 2.046179 210)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "16663397-a302-446d-950b-315351e23868")
@@ -17163,7 +17139,7 @@
 		(uuid "4c5e82db-8f91-4d73-9c9a-f0306074cc09")
 		(at 124.5 142.435 -60)
 		(property "Reference" "D135"
-			(at -1.181362 2.046179 -60)
+			(at -1.181362 2.046179 300)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "03848300-2b8d-47ce-9bfc-fc3c60405395")
@@ -17355,7 +17331,7 @@
 		(uuid "4c802c98-b6e4-4891-9fad-db1518e6025a")
 		(at 88.357 45.224 -78)
 		(property "Reference" "D258"
-			(at -0.41136 1.935296 -78)
+			(at -0.41136 1.935296 282)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8cf1559b-4172-463c-8a31-4c2e28deb88b")
@@ -17534,7 +17510,7 @@
 		(uuid "4f105a2e-85a5-43d9-b848-d1ad56b00b80")
 		(at 146.602 115.142 -18)
 		(property "Reference" "D142"
-			(at -0.655936 -2.018762 -18)
+			(at -0.655936 -2.018762 342)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4e6cec1f-78c3-4436-8c41-ea05b32fe080")
@@ -17875,7 +17851,7 @@
 		(uuid "56c5fb5f-82db-4e77-a536-a57976adc22b")
 		(at 80.07 144.764 -114)
 		(property "Reference" "D126"
-			(at 0.91564 2.056561 -114)
+			(at 0.91564 2.056561 246)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ca010b9d-a94e-4c9b-a708-99f75df2f3c7")
@@ -18394,7 +18370,7 @@
 		(layer "F.Cu")
 		(uuid "5b4d8860-3ae9-4c64-8d5c-6f05ff22f136")
 		(at 114.808 72.16 180)
-		(property "Reference" "PAUSE1"
+		(property "Reference" "D162"
 			(at 3.808 0.16 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -18471,12 +18447,6 @@
 		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/cc3bc2dd-ceb1-45e2-a957-8b806c0d575b")
 		(sheetname "/Minutes ring/")
 		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -20017,7 +19987,7 @@
 		(uuid "6926e7f8-54b8-4edc-b929-75a89ee5a2b8")
 		(at 154.776 88.357 -168)
 		(property "Reference" "D213"
-			(at -0.41136 1.935296 -168)
+			(at -0.41136 1.935296 192)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4a7033e0-a7d5-4a71-b464-a5c7535473a5")
@@ -20384,7 +20354,7 @@
 		(uuid "6b3f582c-2d58-4e1c-9671-22b525798a87")
 		(at 147.929 110.188 -12)
 		(property "Reference" "D143"
-			(at -0.41136 -1.935296 -12)
+			(at -0.41136 -1.935296 348)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6ef1a0b7-eca5-4b63-9c33-10c443c08cc3")
@@ -22205,7 +22175,7 @@
 		(uuid "6f84906c-e8ef-4619-aabf-8a2f5b142a33")
 		(at 48.841 77.223 -24)
 		(property "Reference" "D249"
-			(at -0.91564 -2.056561 -24)
+			(at -0.91564 -2.056561 336)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "dd30b53e-9b9b-4e5d-b7ac-925e13e6f378")
@@ -23010,7 +22980,7 @@
 		(uuid "753c7579-9070-469c-8c38-e61aa031a3ba")
 		(at 84.858 146.602 -108)
 		(property "Reference" "D127"
-			(at 0.655936 2.018762 -108)
+			(at 0.655936 2.018762 252)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "be1ef836-f255-4205-8aea-903f3f50fda3")
@@ -23201,7 +23171,7 @@
 		(layer "F.Cu")
 		(uuid "77ff1c2a-aae8-44e1-827b-472bc9d493f6")
 		(at 114 79)
-		(property "Reference" "REBOOT1"
+		(property "Reference" "SW3"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -23277,12 +23247,6 @@
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/17ac4524-79e7-42ab-ba99-c24a58fe5d2f")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.900001 -1.15)
@@ -23548,7 +23512,7 @@
 		(uuid "791b89fb-ac7e-4837-8467-92294709d60a")
 		(at 45.224 88.357 -12)
 		(property "Reference" "D247"
-			(at -0.41136 -1.935296 -12)
+			(at -0.41136 -1.935296 348)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5540555e-5c05-42bb-89e6-0f3b0885b4aa")
@@ -24106,7 +24070,7 @@
 		(uuid "7e0b3f87-ffc7-43fb-86ed-2bf2561413da")
 		(at 55.236 119.93 -156)
 		(property "Reference" "D119"
-			(at -0.91564 2.056561 -156)
+			(at -0.91564 2.056561 204)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "df591a64-d1e3-46d1-896a-7beee9d85396")
@@ -24596,7 +24560,7 @@
 		(uuid "7ff98ab7-8894-43fa-8797-4ece0cd59380")
 		(at 51.268 105.122 -174)
 		(property "Reference" "D116"
-			(at -0.190284 1.810432 -174)
+			(at -0.190284 1.810432 186)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "762fad3c-2010-43ef-9e12-5fec8ef1525b")
@@ -27783,7 +27747,7 @@
 		(uuid "904f3dab-e358-4f7c-a28e-903d9ad9d4ad")
 		(at 155.693 94.146 -174)
 		(property "Reference" "D214"
-			(at -0.190284 1.810432 -174)
+			(at -0.190284 1.810432 186)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4eedbe8f-8420-4ca7-9b2d-3ead0ce33fee")
@@ -27961,7 +27925,7 @@
 		(layer "F.Cu")
 		(uuid "9170f8db-9aa1-4fac-8df2-054274c896f4")
 		(at 86 79)
-		(property "Reference" "BOOT1"
+		(property "Reference" "SW2"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -28037,12 +28001,6 @@
 		(path "/ad4ac473-fcc4-470e-810d-30123351ac7b/8e10b610-cbe0-46b9-9e43-84281d957e22")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.900001 -1.15)
@@ -28116,7 +28074,7 @@
 		(uuid "917b0249-4ba8-4a05-b421-335ad5b8cd94")
 		(at 144.764 119.93 -24)
 		(property "Reference" "D141"
-			(at -0.91564 -2.056561 -24)
+			(at -0.91564 -2.056561 336)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "70ef3d2c-a5e7-4330-8a77-463c3249827f")
@@ -28754,7 +28712,7 @@
 		(layer "F.Cu")
 		(uuid "9454d745-252a-4172-8d95-764ac6e92edc")
 		(at 115.455 69.745 180)
-		(property "Reference" "ALARM1"
+		(property "Reference" "D161"
 			(at 3.755 -0.055 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -28831,12 +28789,6 @@
 		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/c367a459-9b60-4974-811b-bf31e591eb2b")
 		(sheetname "/Minutes ring/")
 		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -29117,7 +29069,7 @@
 		(uuid "97fb6d4e-3713-4d28-828f-5ef6d36bd09e")
 		(at 46.741 82.695 -18)
 		(property "Reference" "D248"
-			(at -0.655936 -2.018762 -18)
+			(at -0.655936 -2.018762 342)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "703459ec-2e61-4b1e-b998-debc4f0f9bc0")
@@ -30201,7 +30153,7 @@
 		(uuid "9b9b5b9d-d376-4b8d-be54-6b6b57528f22")
 		(at 128.801 139.642 -54)
 		(property "Reference" "D136"
-			(at -1.443628 1.986983 -54)
+			(at -1.443628 1.986983 306)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3893c63c-6287-4c25-8904-df48255cb5ad")
@@ -31046,7 +30998,7 @@
 		(layer "F.Cu")
 		(uuid "a18c57a6-7a65-41c2-a726-37af0a13d114")
 		(at 114.161 74.575 180)
-		(property "Reference" "BATT1"
+		(property "Reference" "D163"
 			(at 3.761 -0.025 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -31123,12 +31075,6 @@
 		(path "/2485d086-a5dc-4870-af6c-da1125a7707d/2e06f5f9-c602-4858-a859-c6882c03c9cd")
 		(sheetname "/Minutes ring/")
 		(sheetfile "minutes.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1 -0.96)
@@ -31260,7 +31206,7 @@
 		(uuid "a1e16537-c26f-49b7-96bd-85bed3cec668")
 		(at 62.529 58.384 -48)
 		(property "Reference" "D253"
-			(at -1.692985 1.880251 -48)
+			(at -1.692985 1.880251 312)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8af61a62-a00f-4fad-9a64-746c0a8fa7dd")
@@ -32534,7 +32480,7 @@
 		(uuid "a6ed8fb6-0e75-4c52-a060-8765fd02a540")
 		(at 94.146 44.307 -84)
 		(property "Reference" "D259"
-			(at -0.190284 1.810432 -84)
+			(at -0.190284 1.810432 276)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "31e0e215-bb16-45ef-8655-3855b9a6f441")
@@ -33089,7 +33035,7 @@
 		(uuid "a765ccb4-32b6-4bd4-98a8-c1dfb0ddffb4")
 		(at 52.071 110.188 -168)
 		(property "Reference" "D117"
-			(at -0.41136 1.935296 -168)
+			(at -0.41136 1.935296 192)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "24324a91-cbaf-4db8-ab52-5a103dc80673")
@@ -34146,7 +34092,7 @@
 		(uuid "ad326a23-07e3-42d2-b6ac-9dd12270e17b")
 		(at 67.084 54.695 -54)
 		(property "Reference" "D254"
-			(at -1.443627 1.986982 -54)
+			(at -1.443627 1.986982 306)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7b7ad5b8-e2bf-49f8-9a8f-372bd9a8d3b4")
@@ -36187,7 +36133,7 @@
 		(uuid "bc6bef7c-602d-4c5a-95af-bea0fc99e08f")
 		(at 105.854 44.307 -96)
 		(property "Reference" "D201"
-			(at 0.190284 1.810432 -96)
+			(at 0.190284 1.810432 264)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "206781f4-c2a8-41fc-bb89-a951aad46f94")
@@ -37105,7 +37051,7 @@
 		(uuid "be9308b1-bc75-4770-8b7c-a4d6e05c79ad")
 		(at 128 51.503 -120)
 		(property "Reference" "D205"
-			(at 1.181362 2.046179 -120)
+			(at 1.181362 2.046179 240)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2150ab6c-1f6a-45cc-ab23-35a497c518d5")
@@ -37433,7 +37379,7 @@
 		(uuid "bfbe53bc-110f-441e-ae9b-9e8c211efb20")
 		(at 151.159 77.223 -156)
 		(property "Reference" "D211"
-			(at -0.91564 2.056561 -156)
+			(at -0.91564 2.056561 204)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "643acf27-f370-471a-9004-6eb40ab22430")
@@ -38399,7 +38345,7 @@
 		(layer "F.Cu")
 		(uuid "c4938ab8-746c-4244-b366-87f79550055f")
 		(at 149.5 169)
-		(property "Reference" "+1"
+		(property "Reference" "SW7"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -38475,12 +38421,6 @@
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/0539b21a-094b-4de1-9429-afb659b67d1d")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.900001 -1.15)
@@ -39829,7 +39769,7 @@
 		(uuid "c5d32be3-2206-468f-bc41-e1a03bbb8f28")
 		(at 100 44 -90)
 		(property "Reference" "D200"
-			(at 0 1.65 -90)
+			(at 0 1.65 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c3177382-36f0-49ec-b396-73f2667ed9c1")
@@ -40008,7 +39948,7 @@
 		(uuid "c621fc4f-8b0e-46ca-b543-496fe9b13576")
 		(at 51.503 72 -30)
 		(property "Reference" "D250"
-			(at -1.181362 -2.046179 -30)
+			(at -1.181362 -2.046179 330)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ce1887a0-6599-4409-97e6-b80dc01f873b")
@@ -40515,7 +40455,7 @@
 		(uuid "c89109fc-ecf1-41b9-b231-596fce3ac42e")
 		(at 67.213 136.414 -132)
 		(property "Reference" "D123"
-			(at 1.692985 1.880251 -132)
+			(at 1.692985 1.880251 228)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "212b264f-bafc-46b7-9fa4-841c6ea6db17")
@@ -40707,7 +40647,7 @@
 		(uuid "c8a4c4b3-2e80-4425-af72-d8b024f88ab8")
 		(at 111.643 45.224 -102)
 		(property "Reference" "D202"
-			(at 0.41136 1.935296 -102)
+			(at 0.41136 1.935296 258)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "aa6c26d8-2dba-4310-aaf4-669722fdf373")
@@ -41269,7 +41209,7 @@
 		(uuid "ca1dcb7c-d2cc-4e99-b948-b77483be5ee9")
 		(at 142.435 124.5 -30)
 		(property "Reference" "D140"
-			(at -1.181362 -2.046179 -30)
+			(at -1.181362 -2.046179 330)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6ae3079-08a0-4153-aabc-42524e696bbe")
@@ -41995,7 +41935,7 @@
 		(uuid "ce00f441-53fe-4926-b487-27c9230fe8bc")
 		(at 122.777 48.841 -114)
 		(property "Reference" "D204"
-			(at 0.91564 2.056561 -114)
+			(at 0.91564 2.056561 246)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ee02d9ee-a1ee-4304-be4b-f0a781faa6a0")
@@ -42174,7 +42114,7 @@
 		(uuid "d00c5b96-5c50-4e34-a8ee-f8fcddff5243")
 		(at 132.916 54.695 -126)
 		(property "Reference" "D206"
-			(at 1.443627 1.986982 -126)
+			(at 1.443627 1.986982 234)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cbf19612-ca7a-40d1-a3ff-19919f4e92e1")
@@ -42353,7 +42293,7 @@
 		(uuid "d03f1181-3993-41dc-80a2-8d80147a8526")
 		(at 119.93 144.764 -66)
 		(property "Reference" "D134"
-			(at -0.91564 2.056561 -66)
+			(at -0.91564 2.056561 294)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4c144a5f-26ba-4316-8b74-6c9732205e81")
@@ -42545,7 +42485,7 @@
 		(uuid "d247bfbb-3431-4ad0-8558-c9eac37b37b4")
 		(at 115.142 146.602 -72)
 		(property "Reference" "D133"
-			(at -0.655936 2.018762 -72)
+			(at -0.655936 2.018762 288)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8cb63dab-14c9-4a8e-8362-0cec22785fb8")
@@ -44058,7 +43998,7 @@
 		(layer "F.Cu")
 		(uuid "db97b1b5-ceab-45f4-91c4-7d31fa762085")
 		(at 124.5 169)
-		(property "Reference" "-1"
+		(property "Reference" "SW5"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -44134,12 +44074,6 @@
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/6276be07-d4d6-4aa4-9583-0080db83f42c")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.900001 -1.15)
@@ -44839,7 +44773,7 @@
 		(uuid "df75e753-081e-4cea-9df9-574f5f0e2c0f")
 		(at 77.223 48.841 -66)
 		(property "Reference" "D256"
-			(at -0.91564 2.056561 -66)
+			(at -0.91564 2.056561 294)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "980bb272-dc7d-4d06-b15f-c32b9d314cb8")
@@ -45568,7 +45502,7 @@
 		(uuid "e0b67912-b0a6-4598-a773-8949bdd59e11")
 		(at 132.787 136.414 -48)
 		(property "Reference" "D137"
-			(at -1.692985 1.880251 -48)
+			(at -1.692985 1.880251 312)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1039c299-6390-43d5-9eeb-e4706619312d")
@@ -45939,7 +45873,7 @@
 		(uuid "e2c59a4d-d628-4c57-a72a-c2e4699f6c12")
 		(at 141.616 62.529 -138)
 		(property "Reference" "D208"
-			(at -1.692985 1.880251 -138)
+			(at -1.692985 1.880251 222)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a8d566b3-d38c-4cd5-b765-c9f99fa4f631")
@@ -46118,7 +46052,7 @@
 		(uuid "e3b7b2ea-8f8c-4c5c-b47a-d609cff8bd55")
 		(at 136.414 132.787 -42)
 		(property "Reference" "D138"
-			(at -1.692985 -1.880251 -42)
+			(at -1.692985 -1.880251 318)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "11ddd0d6-4a12-4d33-883d-48af5921f49c")
@@ -46310,7 +46244,7 @@
 		(uuid "e3ce9538-09e0-4a4d-9b26-57b98a43bc77")
 		(at 153.259 82.695 -162)
 		(property "Reference" "D212"
-			(at -0.655936 2.018762 -162)
+			(at -0.655936 2.018762 198)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "47014250-cd22-49ef-8f3e-b30ff6b085dd")
@@ -47015,7 +46949,7 @@
 		(uuid "e5f02d14-35a1-42a2-afd6-83f87037ba58")
 		(at 148.732 105.122 -6)
 		(property "Reference" "D144"
-			(at -0.190284 -1.810432 -6)
+			(at -0.190284 -1.810432 354)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "abf5838b-88a7-4c9d-942d-a66c9308ad83")
@@ -47206,7 +47140,7 @@
 		(layer "F.Cu")
 		(uuid "e62f475f-4ce5-42eb-98db-94606724a7a9")
 		(at 162 169)
-		(property "Reference" "RESET1"
+		(property "Reference" "SW8"
 			(at 0 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -47282,12 +47216,6 @@
 		(path "/1cf887ec-5206-4670-8379-e6d03f301ae2/7d3ed4cd-43c6-41a0-98ed-678db01f1731")
 		(sheetname "/Sensors & UI/")
 		(sheetfile "sensors.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.900001 -1.15)
@@ -47510,7 +47438,7 @@
 		(uuid "eb6941a5-c14f-4a91-b6a2-111563d964d5")
 		(at 53.398 115.142 -162)
 		(property "Reference" "D118"
-			(at -0.655936 2.018762 -162)
+			(at -0.655936 2.018762 198)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "17f1c0cb-1956-49f5-982c-3575b89edde5")
@@ -47702,7 +47630,7 @@
 		(uuid "eb733fc1-0de0-4870-bf8f-7f53a0b3a31a")
 		(at 54.695 67.084 -36)
 		(property "Reference" "D251"
-			(at -1.443627 -1.986982 -36)
+			(at -1.443627 -1.986982 324)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7f1e8a45-b968-4653-a05e-aa70a45c869b")
@@ -50734,7 +50662,7 @@
 		(uuid "f3d2219c-767d-4c3a-abb8-4febaf5f82a3")
 		(at 71.199 139.642 -126)
 		(property "Reference" "D124"
-			(at 1.443628 1.986983 -126)
+			(at 1.443628 1.986983 234)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6c504e7f-2a26-4360-aa04-269af211fea9")
@@ -51224,7 +51152,7 @@
 		(uuid "f5ee84b5-0221-463f-b727-7ac8b78811f8")
 		(at 72 51.503 -60)
 		(property "Reference" "D255"
-			(at -1.181362 2.046179 -60)
+			(at -1.181362 2.046179 300)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "eab9a6ef-ef50-4a66-a0a6-afec1510cb69")
@@ -51552,7 +51480,7 @@
 		(uuid "f6a14c8d-5bf2-4959-8205-73ecc4e54aca")
 		(at 117.305 46.741 -108)
 		(property "Reference" "D203"
-			(at 0.655936 2.018762 -108)
+			(at 0.655936 2.018762 252)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "777eba9c-44ff-471d-a7f5-cb017c657ced")
@@ -53069,7 +52997,7 @@
 		(uuid "fb567bfd-a519-45ad-ad12-198b85350a2e")
 		(at 144.052 154.4 -135)
 		(property "Reference" "U15"
-			(at -4.319976 4.319975 -135)
+			(at -4.319976 4.319975 225)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "517a4cc7-8f75-4c37-a588-16d9b7075c9b")
@@ -53974,7 +53902,7 @@
 		(uuid "fde9bd0e-1154-4367-9ecb-4ec31f50a3dd")
 		(at 100 149 -90)
 		(property "Reference" "D130"
-			(at 0 1.65 -90)
+			(at 0 1.65 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cee375c1-8e70-44a9-9253-8ecd78beabc0")
@@ -54166,7 +54094,7 @@
 		(uuid "fe828e7b-0ff1-41b6-9bcb-f7485e8e15fb")
 		(at 110.188 147.929 -78)
 		(property "Reference" "D132"
-			(at -0.41136 1.935296 -78)
+			(at -0.41136 1.935296 282)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fa743d31-5da8-4bd6-aaff-c07597355536")
@@ -54986,6 +54914,138 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "086e22f9-1840-4539-bb2f-d76109774fee")
+	)
+	(gr_text "BOOT"
+		(at 86 77.05 0)
+		(layer "F.SilkS")
+		(uuid "435766bc-47d5-4729-b685-e56374294d02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "BATT"
+		(at 110.4 74.6 0)
+		(layer "F.SilkS")
+		(uuid "ebf6b04e-d04b-4680-972a-217da491c46d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "PAUSE"
+		(at 111 72 0)
+		(layer "F.SilkS")
+		(uuid "035d8ecb-ccc1-4e63-a99b-3f1684699200")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "ALARM"
+		(at 111.7 69.8 0)
+		(layer "F.SilkS")
+		(uuid "5c7d41b9-53b5-4a19-8214-0883ce4cb833")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "START"
+		(at 112 167.05 0)
+		(layer "F.SilkS")
+		(uuid "9c3bc1b2-fb7b-4c7c-b27b-07c890321442")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "WIFI"
+		(at 112.3 67.4 0)
+		(layer "F.SilkS")
+		(uuid "e11d268f-fc89-4288-858f-9c5f32627f36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "REBOOT"
+		(at 114 77.05 0)
+		(layer "F.SilkS")
+		(uuid "b6a46a43-d8c7-4015-b359-8cc53f8b3b81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 124.5 167.05 0)
+		(layer "F.SilkS")
+		(uuid "fe18a820-edff-4614-9e0e-5e1b74954703")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "MODE"
+		(at 137 167.05 0)
+		(layer "F.SilkS")
+		(uuid "7f39fad0-a2c9-4c29-abd0-dd1b6e8eae84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 149.5 167.05 0)
+		(layer "F.SilkS")
+		(uuid "4ae4bfd4-a798-43d6-9e6a-405851a73141")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RESET"
+		(at 162 167.05 0)
+		(layer "F.SilkS")
+		(uuid "678c1ab2-d1fb-448d-9e9a-a3b77ad29510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "POWER"
+		(at 165.5 100 90)
+		(layer "F.SilkS")
+		(uuid "6c37d14a-6764-4ae8-9c86-221b8c59039a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(segment
 		(start 76.1827 122.3043)
