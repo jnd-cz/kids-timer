@@ -2366,14 +2366,14 @@
 			)
 		)
 		(property "Label" "POWER"
-			(at 0 -5 90)
+			(at 6.3 -4.1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9d6330e6-2aaa-46d6-8e6e-13e4ca3b790f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 2.5 2.5)
+					(thickness 0.4)
 				)
 			)
 		)
@@ -55522,6 +55522,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "086e22f9-1840-4539-bb2f-d76109774fee")
+	)
+	(gr_text "Kids' timer by Claude Opus 5.5 and Jan Tichavský"
+		(at 37.6 37.8 90)
+		(layer "B.SilkS")
+		(uuid "58b51049-e32d-412c-874f-5a12029c18d8")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 76.1827 122.3043)

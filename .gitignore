@@ -16,7 +16,7 @@ fp-info-cache
 .konnect/
 
 # Fabrication outputs (regenerated on demand)
-production/
+# production/ is committed: the files sent to JLCPCB for rev 1
 gerbers/
 jlcpcb/
 
@@ -27,3 +27,7 @@ __pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# Freerouting scratch
+freerouting.dsn
+temp-freerouting.dsn
